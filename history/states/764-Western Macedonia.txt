@@ -4,6 +4,18 @@ state={
 	provinces={
 		833 867 11856 
 	}
+	history={
+		owner = ALB
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+			air_base = 1
+		}
+		victory_points = {
+			833
+		}
+		add_core_of = ALB
+	}
 	manpower=0
 	buildings_max_level_factor=1.000
 }
