@@ -1,0 +1,370 @@
+﻿2000.1.1 = {
+	capital = 250
+	oob = "RWA_2000"
+	set_convoys = 20
+	
+	add_ideas = {
+		gdp_1
+		pop_030
+		widespread_corruption
+		christian
+		defence_03
+		edu_03
+		health_02
+		social_02
+		bureau_02
+		police_04
+		volunteer_army
+		volunteer_women
+		farmers
+		international_bankers
+		oligarchs
+		hybrid
+		tax_cost_10
+	}
+	set_country_flag = negative_farmers
+	set_country_flag = positive_international_bankers
+
+	set_variable = { var = debt value = 3 }
+	set_variable = { var = treasury value = 0 }
+	set_variable = { var = tax_rate value = 10 }
+	set_variable = { var = int_investments value = 0 }
+	
+	set_autonomy = {
+		target = RCD
+		autonomy_state = autonomy_satellite_state
+	}
+	
+	set_technology = { 
+		#For templates
+		infantry_weapons = 1
+		command_control_equipment = 1
+		Anti_tank_0 = 1
+		Heavy_Anti_tank_0 = 1
+		artillery_0 = 1
+		SP_arty_0 = 1
+		Anti_Air_0 = 1
+		Early_APC = 1
+		APC_1 = 1
+		IFV_1 = 1
+		MBT_1 = 1
+		util_vehicle_0 = 1
+		Rec_tank_0 = 1
+		
+		early_helicopter = 1
+		transport_helicopter1 = 1
+	}
+	
+	set_politics = {
+
+		parties = {
+			democratic = { 
+				popularity = 85
+			}
+
+			fascism = {
+				popularity = 0
+			}
+			
+			communism = {
+				popularity = 5
+				#banned = no #default is no
+			}
+			
+			neutrality = { 
+				popularity = 10
+			}
+		}
+		
+		ruling_party = democratic
+		last_election = "1994.3.23"
+		election_frequency = 72
+		elections_allowed = yes
+	}
+
+	create_country_leader = {
+		name = "Paul Kagame"
+		desc = "POLITICS_Mohamed Cheikh Biadillah_DESC" 
+		picture = "Paul_Kagame.dds"
+		expire = "2050.1.1"
+		ideology = Western_Autocracy
+		traits = {
+			#
+		}
+	}
+
+	create_country_leader = {
+		name = "Pasteur Bizimungu"
+		desc = "" 
+		picture = "RWA_Pasteur_Bizimungu.dds"
+		expire = "2050.1.1"
+		ideology = Western_Autocracy
+		traits = {
+			#
+		}
+	}
+	
+	create_field_marshal = {
+		name = "James Kabarebe"
+		picture = "generals/Portrait_James_Kabarebe.dds"
+		traits = { old_guard defensive_doctrine }
+		id = 51900
+		skill = 4
+		attack_skill = 4
+		defense_skill = 4
+		planning_skill = 4
+		logistics_skill = 4
+	}
+
+	create_field_marshal = {
+		name = "Patrick Nyamvumba"
+		picture = "generals/Portrait_Patrick_Nyamvumba.dds"
+		traits = { old_guard organisational_leader }
+		id = 51901
+		skill = 4
+		attack_skill = 4
+		defense_skill = 4
+		planning_skill = 4
+		logistics_skill = 4
+	}
+
+	create_field_marshal = {
+		name = "Karenzi Karake"
+		picture = "generals/Portrait_Karenzi_Karake.dds"
+		traits = { thorough_planner }
+		id = 51902
+		skill = 3
+		attack_skill = 3
+		defense_skill = 3
+		planning_skill = 3
+		logistics_skill = 3
+	}
+
+	create_corps_commander = {
+		name = "Jacques Musemakweli"
+		picture = "generals/Portrait_Jacques_Musemakweli.dds"
+		traits = { ranger }
+		id = 51903
+		skill = 2
+		attack_skill = 2
+		defense_skill = 2
+		planning_skill = 2
+		logistics_skill = 2
+	}
+
+	create_corps_commander = {
+		name = "Fred Ibingira"
+		picture = "generals/Portrait_Fred_Ibingira.dds"
+		traits = { jungle_rat }
+		id = 51904
+		skill = 3
+		attack_skill = 3
+		defense_skill = 3
+		planning_skill = 3
+		logistics_skill = 3
+	}
+
+	create_corps_commander = {
+		name = "Charles Karamba"
+		picture = "generals/Portrait_Charles_Karamba.dds"
+		traits = { commando }
+		id = 51905
+		skill = 1
+		attack_skill = 1
+		defense_skill = 1
+		planning_skill = 1
+		logistics_skill = 1
+	}
+
+	create_corps_commander = {
+		name = "Jerôme Ngendahimana"
+		picture = "generals/Portrait_Jerome_Ngendahimana.dds"
+		traits = { trait_engineer }
+		id = 51906
+		skill = 2
+		attack_skill = 2
+		defense_skill = 2
+		planning_skill = 2
+		logistics_skill = 2
+	}
+
+	create_corps_commander = {
+		name = "Frank Mushyo Kamanzi"
+		picture = "generals/Portrait_Frank_Kamanzi.dds"
+		traits = { panzer_leader }
+		id = 51907
+		skill = 3
+		attack_skill = 3
+		defense_skill = 3
+		planning_skill = 3
+		logistics_skill = 3
+	}
+
+	create_corps_commander = {
+		name = "Innocent Kabandana"
+		picture = "generals/Portrait_Innocent_Kabandana.dds"
+		traits = { commando urban_assault_specialist }
+		id = 51908
+		skill = 1
+		attack_skill = 1
+		defense_skill = 1
+		planning_skill = 1
+		logistics_skill = 1
+	}
+
+	create_corps_commander = {
+		name = "Charles Kayonga"
+		picture = "generals/Portrait_Charles_Kayonga.dds"
+		traits = { fortress_buster }
+		id = 51909
+		skill = 3
+		attack_skill = 3
+		defense_skill = 3
+		planning_skill = 3
+		logistics_skill = 3
+	}
+
+	create_corps_commander = {
+		name = "Emmanuel Gasana"
+		picture = "generals/Portrait_Emmanuel_Gasana.dds"
+		traits = { urban_assault_specialist }
+		id = 51910
+		skill = 2
+		attack_skill = 2
+		defense_skill = 2
+		planning_skill = 2
+		logistics_skill = 2
+	}
+
+	create_corps_commander = {
+		name = "Joseph Nzabamwita"
+		picture = "generals/Portrait_Joseph_Nzabamwita.dds"
+		traits = { trickster }
+		id = 51911
+		skill = 1
+		attack_skill = 1
+		defense_skill = 1
+		planning_skill = 1
+		logistics_skill = 1
+	}
+
+	create_corps_commander = {
+		name = "Jean Bosco Kazura"
+		picture = "generals/Portrait_Jean_Bosco_Kazura.dds"
+		traits = { desert_fox }
+		id = 51912
+		skill = 2
+		attack_skill = 2
+		defense_skill = 2
+		planning_skill = 2
+		logistics_skill = 2
+	}
+
+	create_navy_leader = {
+		name = "James Kabarebe"
+		picture = "admirals/Portrait_James_Kabarebe.dds"
+		traits = {  }
+		id = 51913
+	}
+
+	create_navy_leader = {
+		name = "Patrick Nyamvumba"
+		picture = "admirals/Portrait_Patrick_Nyamvumba.dds"
+		traits = {  }
+		id = 51914
+	}
+}
+
+2017.1.1 = {
+	capital = 250
+	oob = "RWA_2017"
+	set_convoys = 20
+
+	add_ideas = {
+		pop_050
+		widespread_corruption
+		christian
+		gdp_2
+		fast_growth
+		defence_01
+		edu_03
+		health_02
+		social_02
+		bureau_02
+		police_04
+		volunteer_army
+		volunteer_women
+		farmers
+		international_bankers
+		oligarchs
+		hybrid
+		tax_cost_14
+	}
+	#set_country_flag = gdp_2
+	set_country_flag = negative_farmers
+	set_country_flag = positive_international_bankers
+
+	set_variable = { var = debt value = 4 }
+	set_variable = { var = treasury value = 1 }
+	set_variable = { var = int_investments value = 0 }
+	set_variable = { var = tax_rate value = 14 }
+	
+	set_variable = { var = size_modifier value = 0.08 } #1 CIC
+	initial_money_setup = yes
+	
+	#Nat focus
+	complete_national_focus = bonus_tech_slots
+	
+	set_technology = { 
+		legacy_doctrines = 1 
+		modern_blitzkrieg = 1 
+		forward_defense = 1 
+		encourage_nco_iniative = 1 
+		air_land_battle = 1
+		#For templates
+		infantry_weapons = 1
+		command_control_equipment = 1
+		Anti_tank_0 = 1
+		Heavy_Anti_tank_0 = 1
+		artillery_0 = 1
+		SP_arty_0 = 1
+		Anti_Air_0 = 1
+		Early_APC = 1
+		APC_1 = 1
+		IFV_1 = 1
+		MBT_1 = 1
+		util_vehicle_0 = 1
+		Rec_tank_0 = 1
+		
+		early_helicopter = 1
+		transport_helicopter1 = 1
+	}
+	
+	set_politics = {
+
+		parties = {
+			democratic = { 
+				popularity = 85
+			}
+
+			fascism = {
+				popularity = 0
+			}
+			
+			communism = {
+				popularity = 5
+				#banned = no #default is no
+			}
+			
+			neutrality = { 
+				popularity = 10
+			}
+		}
+		
+		ruling_party = democratic
+		last_election = "2010.8.9"
+		election_frequency = 84
+		elections_allowed = yes
+	}
+	
+}

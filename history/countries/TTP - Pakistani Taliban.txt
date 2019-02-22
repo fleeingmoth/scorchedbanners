@@ -1,0 +1,266 @@
+﻿2000.1.1 = {
+	capital = 957
+	oob = "TTP_2000"
+
+	# Starting tech
+	set_technology = { 
+		legacy_doctrines = 1 
+		infiltration_assault = 1 
+		frontline_defence = 1 
+		early_tunnel_warfare = 1 
+		guerilla_specialisation = 1
+		
+		infantry_weapons = 1
+		
+		#Just to make templates work
+		command_control_equipment = 1
+		Anti_Air_0 = 1
+		Anti_tank_0 = 1
+		night_vision_1 = 1
+	}
+
+	set_convoys = 20
+
+	diplomatic_relation = {
+		country = TAL
+		relation = military_access
+		active = yes
+	}
+
+	add_ideas = {
+		pop_050
+		crippling_corruption
+		gdp_1
+		sunni
+		youth_radicalization
+		defence_08
+		edu_01
+		health_01
+		social_01
+		bureau_02
+		police_01
+		state_press
+		underground_parties_only
+		theocracy
+		partial_draft_army
+		no_women_in_military
+		foreign_jihadis
+		The_Ulema
+		farmers
+		tribalism
+		terrorist_nation
+	}
+	#set_country_flag = gdp_1
+
+	#Nat focus
+		complete_national_focus = bonus_tech_slots
+
+	set_politics = {
+
+		parties = {
+			democratic = { 
+				popularity = 0
+			}
+
+			fascism = {
+				popularity = 100
+			}
+			
+			communism = {
+				popularity = 0
+				#banned = no #default is no
+			}
+			neutrality = { 
+				popularity = 0
+			}
+		}
+		
+		ruling_party = fascism
+		last_election = "2012.3.25"
+		election_frequency = 60
+		elections_allowed = no
+	}
+	create_country_leader = {
+		name = "Hakimullah Mehsud"
+		picture = "gfx/leaders/PAK/Gen_Hakimullah_Mehsud.dds"
+		expire = "2013.1.1"
+		ideology = Caliphate
+		traits = {
+			#
+		}
+	}
+	create_country_leader = {
+		name = "Baitullah Mehsud"
+		picture = "gfx/leaders/PAK/Baitullah_Mehsud.dds"
+		expire = "2008.1.1"
+		ideology = Caliphate
+		traits = {
+			#
+		}
+	}
+	create_country_leader = {
+		name = "Nek Muhammad Wazir"
+		picture = "gfx/leaders/PAK/Nek_Muhammad_Wazir.dds"
+		expire = "2005.1.1"
+		ideology = Caliphate
+		traits = {
+			#
+		}
+	}
+	
+	create_corps_commander = {
+		name = "Maulvi Nazir"
+		picture = "Maulvi_Nazir.dds"
+		traits = { commando trait_mountaineer }
+		id = 63950
+		skill = 3
+		attack_skill = 2
+		defense_skill = 3
+		planning_skill = 4
+		logistics_skill = 3
+	}
+	
+	create_corps_commander = {
+		name = "Mullah Dadullah"
+		picture = "TTP_Mullah_Dadullah.dds"
+		traits = { commando }
+		id = 63951
+		skill = 3
+		attack_skill = 3
+		defense_skill = 3
+		planning_skill = 2
+		logistics_skill = 3
+	}
+
+	create_corps_commander = {
+		name = "Ilyas Kashmiri" #al-Qaeda really
+		picture = "Ilyas_Kashmiri.dds"
+		traits = { commando trait_mountaineer }
+		id = 63952
+		skill = 3
+		attack_skill = 2
+		defense_skill = 1
+		planning_skill = 4
+		logistics_skill = 2
+	}
+
+	create_corps_commander = {
+		name = "Baitullah Mehsud"
+		picture = "gfx/leaders/PAK/Baitullah_Mehsud.dds"
+		traits = { commando trait_mountaineer }
+		id = 63953
+		skill = 2
+		attack_skill = 2
+		defense_skill = 2
+		planning_skill = 2
+		logistics_skill = 2
+	}
+	
+	create_corps_commander = {
+		name = "Hakimullah Mehsud"
+		picture = "gfx/leaders/PAK/Hakimullah_Mehsud.dds"
+		traits = { commando trait_mountaineer }
+		id = 63954
+		skill = 2
+		attack_skill = 1
+		defense_skill = 1
+		planning_skill = 4
+		logistics_skill = 3
+	}
+
+}
+
+2017.1.1 = {
+	capital = 957
+
+	oob = "TTP_2017"
+
+	# Starting tech
+	set_technology = { 
+		legacy_doctrines = 1 
+		modern_blitzkrieg = 1 
+		forward_defense = 1 
+		encourage_nco_iniative = 1 
+		air_land_battle = 1
+		infantry_weapons = 1
+		
+		#Just to make templates work
+		command_control_equipment = 1
+		Anti_Air_0 = 1
+		Anti_tank_0 = 1
+		night_vision_1 = 1
+	}
+
+	set_convoys = 20
+
+
+	diplomatic_relation = {
+		country = TAL
+		relation = military_access
+		active = yes
+	}
+
+	add_ideas = {
+		pop_050
+		crippling_corruption
+		gdp_1
+		sunni
+		youth_radicalization
+		defence_08
+		edu_01
+		health_01
+		social_01
+		bureau_02
+		police_01
+		state_press
+		underground_parties_only
+		theocracy
+		partial_draft_army
+		no_women_in_military
+		foreign_jihadis
+		The_Ulema
+		farmers
+		tribalism
+		terrorist_nation
+	}
+
+	#Nat focus
+		complete_national_focus = bonus_tech_slots
+
+	set_politics = {
+
+		parties = {
+			democratic = { 
+				popularity = 0
+			}
+
+			fascism = {
+				popularity = 100
+			}
+			
+			communism = {
+				popularity = 0
+				#banned = no #default is no
+			}
+			neutrality = { 
+				popularity = 0
+			}
+		}
+		
+		ruling_party = fascism
+		last_election = "2012.3.25"
+		election_frequency = 60
+		elections_allowed = no
+	}
+
+	create_country_leader = {
+		name = "Maulana Fazlullah"
+		picture = "gfx/leaders/PAK/PAKTaliban_Maulana_Fazlullah.dds"
+		expire = "2050.1.1"
+		ideology = Caliphate
+		traits = {
+			#
+		}
+	}
+
+}

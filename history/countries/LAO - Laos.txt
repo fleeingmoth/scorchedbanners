@@ -1,0 +1,328 @@
+﻿2000.1.1 = {
+	capital = 516
+	oob = "LAO_2000"
+	
+	set_convoys = 20
+	
+	add_ideas = {
+		gdp_2
+		multi_ethnic_state_idea
+	}
+	
+	add_opinion_modifier = { target = MAY modifier = asean_relations }
+	reverse_add_opinion_modifier = { target = MAY modifier = asean_relations }
+	add_opinion_modifier = { target = BRM modifier = asean_relations }
+	reverse_add_opinion_modifier = { target = BRM modifier = asean_relations }
+	add_opinion_modifier = { target = PHI modifier = asean_relations }
+	reverse_add_opinion_modifier = { target = PHI modifier = asean_relations }
+	add_opinion_modifier = { target = SIN modifier = asean_relations }
+	reverse_add_opinion_modifier = { target = SIN modifier = asean_relations }
+	add_opinion_modifier = { target = SIA modifier = asean_relations }
+	reverse_add_opinion_modifier = { target = SIA modifier = asean_relations }
+	add_opinion_modifier = { target = VIE modifier = asean_relations }
+	reverse_add_opinion_modifier = { target = VIE modifier = asean_relations }
+	
+	set_technology = { 
+		#for templates
+		infantry_weapons = 1
+		command_control_equipment = 1
+		Anti_tank_0 = 1
+		Heavy_Anti_tank_0 = 1
+		artillery_0 = 1
+		Anti_Air_0 = 1
+		SP_Anti_Air_0 = 1
+		Early_APC = 1
+		APC_1 = 1
+		MBT_1 = 1
+		Rec_tank_0 = 1
+	}
+	
+	set_politics = {
+
+		parties = {
+			democratic = { 
+				popularity = 5
+			}
+
+			fascism = {
+				popularity = 0
+			}
+			
+			communism = {
+				popularity = 80
+				#banned = no #default is no
+			}
+			
+			neutrality = { 
+				popularity = 15
+			}
+		}
+		
+		ruling_party = communism
+		last_election = "1932.11.8"
+		election_frequency = 48
+		elections_allowed = no
+	}
+
+	create_country_leader = {
+		name = "Khamtai Siphandon"
+		picture = "Khamtai_Siphandon.dds"
+		expire = "2010.1.1"
+		ideology = Communist-State
+		traits = {
+			#
+		}
+	}
+	
+	create_corps_commander = {
+		name = "Douangchay Phichit"
+		picture = "generals/Douangchay_Phichit.dds"
+		id = 34500
+		skill = 1
+		attack_skill = 1
+		defense_skill = 1
+		planning_skill = 1
+		logistics_skill = 1
+	}
+
+	create_field_marshal = {
+		name = "Chansamone Chanyalath"
+		picture = "generals/Portrait_Chansamone.dds"
+		traits = { old_guard defensive_doctrine }
+		id = 34501
+		skill = 3
+		attack_skill = 3
+		defense_skill = 3
+		planning_skill = 3
+		logistics_skill = 3
+	}
+
+	create_field_marshal = {
+		name = "Souvone Leuangbounmy"
+		picture = "generals/Portrait_Souvone.dds"
+		traits = { organisational_leader }
+		id = 34502
+		skill = 2
+		attack_skill = 2
+		defense_skill = 2
+		planning_skill = 2
+		logistics_skill = 2
+	}
+
+	create_corps_commander = {
+		name = "Chanthong Soneta-ard"
+		picture = "generals/Portrait_Chanthong.dds"
+		traits = { panzer_leader }
+		id = 34503
+		skill = 1
+		attack_skill = 1
+		defense_skill = 1
+		planning_skill = 1
+		logistics_skill = 1
+	}
+
+	create_corps_commander = {
+		name = "Vilay Lakhamphong"
+		picture = "generals/Portrait_Vilay.dds"
+		traits = { fortress_buster }
+		id = 34504
+		skill = 2
+		attack_skill = 2
+		defense_skill = 2
+		planning_skill = 2
+		logistics_skill = 2
+	}
+
+	create_corps_commander = {
+		name = "Vongkham Phommakone"
+		picture = "generals/Portrait_Vongkham.dds"
+		traits = { trait_engineer }
+		id = 34505
+		skill = 1
+		attack_skill = 1
+		defense_skill = 1
+		planning_skill = 1
+		logistics_skill = 1
+	}
+
+	create_corps_commander = {
+		name = "Sonethong Phomlavong"
+		picture = "generals/Portrait_Sonethong.dds"
+		traits = { trickster }
+		id = 34506
+		skill = 1
+		attack_skill = 1
+		defense_skill = 1
+		planning_skill = 1
+		logistics_skill = 1
+	}
+
+	create_corps_commander = {
+		name = "Vanhthong Kongmany"
+		picture = "generals/Portrait_Vanhthong.dds"
+		traits = { ranger }
+		id = 34507
+		skill = 1
+		attack_skill = 1
+		defense_skill = 1
+		planning_skill = 1
+		logistics_skill = 1
+	}
+
+	create_corps_commander = {
+		name = "Phouvong Vongphom"
+		picture = "generals/Portrait_Phouvong.dds"
+		traits = { hill_fighter }
+		id = 34508
+		skill = 2
+		attack_skill = 2
+		defense_skill = 2
+		planning_skill = 2
+		logistics_skill = 2
+	}
+
+	create_navy_leader = {
+		name = "Chansamone Chanyalath"
+		picture = "admirals/Portrait_Chansamone.dds"
+		traits = {  }
+		id = 34509
+	}
+}
+
+2017.1.1 = {
+	capital = 516
+	oob = "LAO_2017"
+	set_convoys = 20
+		
+	add_ideas = {
+		pop_050
+		systematic_corruption
+		buddism
+		gdp_2
+		fast_growth
+		defence_03
+		edu_02
+		health_01
+		social_01
+		bureau_03
+		police_05
+		draft_army
+		volunteer_women
+		communist_cadres
+		farmers
+		international_bankers
+		civil_law
+		tax_cost_14
+		multi_ethnic_state_idea
+	}
+	
+	#set_country_flag = gdp_2
+	set_country_flag = negative_farmers
+	
+	set_variable = { var = debt value = 11 }
+	set_variable = { var = treasury value = 1 }
+	set_variable = { var = int_investments value = 0 }
+	set_variable = { var = tax_rate value = 14 }
+	
+	set_variable = { var = size_modifier value = 0.08 } #1 CIC
+	initial_money_setup = yes
+	
+	#Influence system
+	set_variable = { var = domestic_influence_amount value = 30 }
+	set_variable = { var = influencer1 value = CHI.id }
+	set_variable = { var = influencer1_amount value = 140 }
+	set_variable = { var = influencer2 value = VIE.id }
+	set_variable = { var = influencer2_amount value = 30 }
+	set_variable = { var = influencer3 value = SIA.id }
+	set_variable = { var = influencer3_amount value = 35 }
+	set_variable = { var = influencer4 value = USA.id }
+	set_variable = { var = influencer4_amount value = 5 }
+	recalculate_influence = yes
+	
+	activate_targeted_decision = { target = CHI decision = target_hostile_influence }
+	activate_targeted_decision = { target = VIE decision = target_hostile_influence }
+	activate_targeted_decision = { target = SIA decision = target_hostile_influence }
+	activate_targeted_decision = { target = USA decision = target_hostile_influence }
+	
+	add_opinion_modifier = { target = MAY modifier = asean_plus_three_relations }
+	reverse_add_opinion_modifier = { target = MAY modifier = asean_plus_three_relations }
+	add_opinion_modifier = { target = BRM modifier = asean_plus_three_relations }
+	reverse_add_opinion_modifier = { target = BRM modifier = asean_plus_three_relations }
+	add_opinion_modifier = { target = PHI modifier = asean_plus_three_relations }
+	reverse_add_opinion_modifier = { target = PHI modifier = asean_plus_three_relations }
+	add_opinion_modifier = { target = SIN modifier = asean_plus_three_relations }
+	reverse_add_opinion_modifier = { target = SIN modifier = asean_plus_three_relations }
+	add_opinion_modifier = { target = SIA modifier = asean_plus_three_relations }
+	reverse_add_opinion_modifier = { target = SIA modifier = asean_plus_three_relations }
+	add_opinion_modifier = { target = VIE modifier = asean_plus_three_relations }
+	reverse_add_opinion_modifier = { target = VIE modifier = asean_plus_three_relations }
+	add_opinion_modifier = { target = CHI modifier = asean_plus_three_relations }
+	reverse_add_opinion_modifier = { target = CHI modifier = asean_plus_three_relations }
+	add_opinion_modifier = { target = KOR modifier = asean_plus_three_relations }
+	reverse_add_opinion_modifier = { target = KOR modifier = asean_plus_three_relations }
+	add_opinion_modifier = { target = JAP modifier = asean_plus_three_relations }
+	reverse_add_opinion_modifier = { target = JAP modifier = asean_plus_three_relations }
+	
+	#Nat focus
+	complete_national_focus = bonus_tech_slots
+	
+	set_technology = { 
+		legacy_doctrines = 1 
+		modern_blitzkrieg = 1 
+		forward_defense = 1 
+		encourage_nco_iniative = 1 
+		air_land_battle = 1
+		#for templates
+		infantry_weapons = 1
+		command_control_equipment = 1
+		Anti_tank_0 = 1
+		Heavy_Anti_tank_0 = 1
+		artillery_0 = 1
+		Anti_Air_0 = 1
+		SP_Anti_Air_0 = 1
+		Early_APC = 1
+		APC_1 = 1
+		MBT_1 = 1
+		Rec_tank_0 = 1
+	}
+
+	
+	set_politics = {
+
+		parties = {
+			democratic = { 
+				popularity = 5
+			}
+
+			fascism = {
+				popularity = 0
+			}
+			
+			communism = {
+				popularity = 80
+				#banned = no #default is no
+			}
+			
+			neutrality = { 
+				popularity = 15
+			}
+		}
+		
+		ruling_party = communism
+		last_election = "1932.11.8"
+		election_frequency = 48
+		elections_allowed = no
+	}
+
+	create_country_leader = {
+		name = "Bounnhang Vorachith"
+		desc = "POLITICS_Bounnhang_Vorachith_DESC"
+		picture = "Bounnhang_Vorachith.dds"
+		expire = "2050.1.1"
+		ideology = Communist-State
+		traits = {
+			#
+		}
+	}
+	
+}
