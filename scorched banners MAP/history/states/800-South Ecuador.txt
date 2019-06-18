@@ -1,9 +1,20 @@
 state={
 	id=800
 	name="STATE_800"
+	   state_category=pastoral
+    manpower=500000
+	history={
+		owner = ECU
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_core_of = ECU
+
+	}
 	provinces={
 		5120 11020 
 	}
-	manpower=0
+
 	buildings_max_level_factor=1.000
 }

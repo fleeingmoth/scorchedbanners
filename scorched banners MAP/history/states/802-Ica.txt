@@ -1,9 +1,19 @@
 state={
 	id=802
 	name="STATE_802"
+	    state_category=pastoral
+    manpower=500000
+	history={
+		owner = PRU
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_core_of = PRU
+
+	}
 	provinces={
 		2225 5202 
 	}
-	manpower=0
 	buildings_max_level_factor=1.000
 }
