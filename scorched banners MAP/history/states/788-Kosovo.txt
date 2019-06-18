@@ -1,0 +1,25 @@
+state={
+	id=788
+	name="STATE_788"
+	resources={
+		steel=3.000
+	}
+
+	history={
+		owner = ALB
+		buildings = {
+			infrastructure = 4
+
+		}
+		add_core_of = ALB
+		add_core_of = SER
+
+	}
+
+	provinces={
+		833 867 6940 6953 9849 9874 9890 11832 
+	}
+	manpower=400000
+	buildings_max_level_factor=1.000
+	state_category=town
+}

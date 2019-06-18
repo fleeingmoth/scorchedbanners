@@ -1,0 +1,24 @@
+state={
+	id=793
+	name="STATE_793"
+	
+	history={
+		victory_points = {
+			9602 3 
+		}
+		owner = CEB
+		buildings = {
+			infrastructure = 4
+
+		}
+		add_core_of = CEB
+		add_core_of = LEB
+
+	}
+	provinces={
+		13221 
+	}
+	manpower=200000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

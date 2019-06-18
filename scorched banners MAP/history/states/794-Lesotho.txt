@@ -1,0 +1,28 @@
+state={
+	id=794
+	name="STATE_794"
+	
+	resources={
+		steel=2.000
+	}
+
+	state_category=rural
+	history={
+		victory_points = {
+			4556 3 
+		}
+		owner = LES
+		buildings = {
+			infrastructure = 4
+
+		}
+		add_core_of = LES
+		add_core_of = LES
+
+	}
+	provinces={
+		4556 
+	}
+	manpower=1000000
+	buildings_max_level_factor=1.000
+}

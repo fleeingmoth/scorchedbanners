@@ -1,0 +1,28 @@
+state={
+	id=795
+	name="STATE_795"
+	resources={
+		steel=2.000
+	}
+
+	state_category=rural
+	history={
+		victory_points = {
+			7900 3 
+		}
+		owner = ESW
+		buildings = {
+			infrastructure = 4
+
+		}
+		add_core_of = ESW
+		add_core_of = ESW
+
+	}
+	
+	provinces={
+		7900 
+	}
+	manpower=1000000
+	buildings_max_level_factor=1.000
+}

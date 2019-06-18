@@ -1,0 +1,22 @@
+state={
+	id=789
+	name="STATE_789"
+	
+	history={
+		owner = ISR
+		buildings = {
+			infrastructure = 4
+
+		}
+		add_core_of = ISR
+		add_core_of = PAL
+
+	}
+
+	provinces={
+		1065 1201 
+	}
+	manpower=500000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

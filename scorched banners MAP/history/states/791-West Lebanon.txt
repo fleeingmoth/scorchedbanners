@@ -1,0 +1,24 @@
+state={
+	id=791
+	name="STATE_791"
+	
+	history={
+		victory_points = {
+			9602 3 
+		}
+		owner = WEB
+		buildings = {
+			infrastructure = 4
+
+		}
+		add_core_of = WEB
+		add_core_of = LEB
+
+	}
+	provinces={
+		13220 
+	}
+	manpower=200000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}
