@@ -1,0 +1,309 @@
+﻿2000.1.1 = {
+	capital = 210
+	oob = "JOR_2000"
+	set_convoys = 20
+	
+	add_ideas = {
+		gdp_4
+		tax_cost_15
+	}
+	
+	set_variable = { var = debt value = 12  }
+	set_variable = { var = treasury value = 5 }
+	set_variable = { var = tax_rate value = 15 }
+	set_variable = { var = int_investments value = 0 }
+	
+	set_technology = { 
+		
+		#Al-Thalab and Desert Iris
+		util_vehicle_0 = 1
+		
+		#Al-Monjed ARV
+		MBT_1 = 1
+		ENGI_MBT_1 = 1
+		
+		#For templates
+		infantry_weapons = 1
+		combat_eng_equipment = 1
+		command_control_equipment = 1
+		Anti_tank_0 = 1
+		Heavy_Anti_tank_0 = 1
+		artillery_0 = 1
+		SP_arty_0 = 1
+		Anti_Air_0 = 1
+		SP_Anti_Air_0 = 1
+		Early_APC = 1
+		APC_1 = 1
+		IFV_1 = 1
+		
+	}
+	
+	set_politics = {
+
+		parties = {
+			democratic = { 
+				popularity = 25
+			}
+
+			fascism = {
+				popularity = 20
+			}
+			
+			communism = {
+				popularity = 5
+				#banned = no #default is no
+			}
+			
+			neutrality = { 
+				popularity = 50
+			}
+		}
+		
+		ruling_party = democratic
+		last_election = "1999.1.1"
+		election_frequency = 48
+		elections_allowed = no
+	}
+
+	create_country_leader = {
+		name = "Abdullah II"
+		desc = ""
+		picture = "Western_Abdullah_II.dds"
+		ideology = conservatism
+		traits = {
+			#
+		}
+	}
+	
+	create_field_marshal = {
+		name = "Abdul Hafiz Al-Kaabnehn"
+		picture = "Abdul_Hafiz_Al-Kaabnehn.dds"
+		traits = { old_guard thorough_planner }
+		id = 31800
+		skill = 2
+		attack_skill = 2
+		defense_skill = 2
+		planning_skill = 2
+		logistics_skill = 2
+	}
+
+	create_corps_commander = {
+		name = "Mohammed Yousef Al Malkawi"
+		picture = "Mohammed_Yousef_Malkawi.dds"
+		traits = { panzer_leader }
+		id = 31801
+		skill = 1
+		attack_skill = 1
+		defense_skill = 1
+		planning_skill = 1
+		logistics_skill = 1
+	}
+	create_corps_commander = {
+		name = "Ma'ashal Al-Zabin"
+		picture = "Ma'ashal_el-Zabin.dds"
+		traits = { desert_fox }
+		id = 31802
+		skill = 2
+		attack_skill = 2
+		defense_skill = 2
+		planning_skill = 2
+		logistics_skill = 2
+	}
+	create_corps_commander = {
+		name = "Mahmoud Abdel Halim Freihat"
+		picture = "Mahmoud_Abdel_Halim_Freihat.dds"
+		traits = { commando }
+		id = 31803
+		skill = 1
+		attack_skill = 1
+		defense_skill = 1
+		planning_skill = 1
+		logistics_skill = 1
+	}
+	create_corps_commander = {
+		name = "Hussein al-Majali"
+		picture = "Hussein_A_Majali.dds"
+		traits = { trickster }
+		id = 31804
+		skill = 1
+		attack_skill = 1
+		defense_skill = 1
+		planning_skill = 1
+		logistics_skill = 1
+	}
+	create_corps_commander = {
+		name = "Khaled Jamil el-Sarayreh"
+		picture = "Khaled_Jamil_el-Sarayreh.dds"
+		traits = { ranger }
+		id = 31805
+		skill = 2
+		attack_skill = 2
+		defense_skill = 2
+		planning_skill = 2
+		logistics_skill = 2
+	}
+	create_corps_commander = {
+		name = "Khaled Al-Sharah"
+		picture = "Khaled_Sarah.dds"
+		traits = { urban_assault_specialist }
+		id = 31806
+		skill = 1
+		attack_skill = 1
+		defense_skill = 1
+		planning_skill = 1
+		logistics_skill = 1
+	}
+	create_navy_leader = {
+		name = "Qasim Fadil Nahar"
+		picture = "Qasim_Fadil_Nahar.dds"
+		traits = { old_guard_navy superior_tactician }
+		id = 31807
+	}
+}
+
+2017.1.1 = {
+	capital = 210
+	oob = "JOR_2017"
+	set_convoys = 5
+
+	add_ideas = {
+		pop_050
+		unrestrained_corruption
+		gdp_4
+		sunni
+		saudi_aid
+		LoAS_member
+		stable_growth
+		defence_05
+		edu_03
+		health_04
+		social_03
+		bureau_02
+		police_02
+		al_jazeera_banned
+		draft_army
+		volunteer_women
+		Major_Non_NATO_Ally
+		USA_usaid #https://explorer.usaid.gov/aid-dashboard.html
+		restoring_hope
+		industrial_conglomerates
+		small_medium_business_owners
+		landowners
+		hybrid
+		tax_cost_15
+	}
+
+	#set_country_flag = gdp_4
+	set_country_flag = Major_Non_NATO_Ally
+	set_country_flag = Major_Importer_HOL_Arms
+	set_country_flag = positive_industrial_conglomerates
+	set_country_flag = positive_small_medium_business_owners
+	set_country_flag = positive_landowners
+	
+	set_variable = { var = debt value = 39  }
+	set_variable = { var = treasury value = 16 }
+	set_variable = { var = int_investments value = 0 }
+	set_variable = { var = tax_rate value = 15 }
+	
+	set_variable = { var = size_modifier value = 0.23 } #3 CIC
+	initial_money_setup = yes
+	
+	#Influence system
+	set_variable = { var = domestic_influence_amount value = 50 }
+	set_variable = { var = influencer1 value = USA.id }
+	set_variable = { var = influencer1_amount value = 120 }
+	set_variable = { var = influencer2 value = TUR.id }
+	set_variable = { var = influencer2_amount value = 20 }
+	set_variable = { var = influencer3 value = SAU.id }
+	set_variable = { var = influencer3_amount value = 70 }
+	set_variable = { var = influencer5 value = ISR.id }
+	set_variable = { var = influencer5_amount value = 30 }
+	set_variable = { var = influencer6 value = EGY.id }
+	set_variable = { var = influencer6_amount value = 40 }
+	recalculate_influence = yes
+	
+	activate_targeted_decision = { target = USA decision = target_hostile_influence }
+	activate_targeted_decision = { target = TUR decision = target_hostile_influence }
+	activate_targeted_decision = { target = SAU decision = target_hostile_influence }
+	activate_targeted_decision = { target = ISR decision = target_hostile_influence }
+	activate_targeted_decision = { target = EGY decision = target_hostile_influence }
+	
+	#Nat focus
+	complete_national_focus = bonus_tech_slots
+	complete_national_focus = Generic_4K_GDPC_slot
+	complete_national_focus = Generic_4_IC_slot
+	
+	set_technology = { 
+		legacy_doctrines = 1 
+		modern_blitzkrieg = 1 
+		forward_defense = 1 
+		encourage_nco_iniative = 1 
+		air_land_battle = 1
+		night_vision_1 = 1
+		night_vision_2 = 1
+		night_vision_3 = 1
+		
+		#Al-Thalab and Desert Iris
+		util_vehicle_0 = 1
+		util_vehicle_1 = 1
+		util_vehicle_2 = 1
+		util_vehicle_3 = 1
+		util_vehicle_4 = 1
+		
+		#Al-Monjed ARV
+		MBT_1 = 1
+		ENGI_MBT_1 = 1
+		
+		#For templates
+		infantry_weapons = 1
+		combat_eng_equipment = 1
+		command_control_equipment = 1
+		Anti_tank_0 = 1
+		Heavy_Anti_tank_0 = 1
+		artillery_0 = 1
+		SP_arty_0 = 1
+		Anti_Air_0 = 1
+		SP_Anti_Air_0 = 1
+		Early_APC = 1
+		APC_1 = 1
+		IFV_1 = 1
+		
+	}
+	
+	set_politics = {
+
+		parties = {
+			democratic = { 
+				popularity = 25
+			}
+
+			fascism = {
+				popularity = 20
+			}
+			
+			communism = {
+				popularity = 5
+				#banned = no #default is no
+			}
+			
+			neutrality = { 
+				popularity = 50
+			}
+		}
+		
+		ruling_party = democratic
+		last_election = "1999.1.1"
+		election_frequency = 48
+		elections_allowed = no
+	}
+
+	create_country_leader = {
+		name = "Abdullah II"
+		desc = ""
+		picture = "Western_Abdullah_II.dds"
+		ideology = conservatism
+		traits = {
+			#
+		}
+	}
+}

@@ -1,0 +1,243 @@
+﻿2000.1.1 = {
+	capital = 480
+	oob = "MLD_2000"
+	
+	set_convoys = 20
+	
+	add_ideas = {
+		gdp_4
+		pop_050
+		sunni
+		defence_01
+		edu_04
+		health_05
+		social_02
+		bureau_02
+		police_02
+		maritime_industry
+		international_bankers
+		small_medium_business_owners
+		hybrid
+		tax_cost_14
+	}
+
+	set_country_flag = negative_maritime_industry
+	set_country_flag = negative_international_bankers
+	set_country_flag = negative_small_medium_business_owners
+
+	set_variable = { var = debt value = 0 }
+	set_variable = { var = treasury value = 0 }
+	set_variable = { var = tax_rate value = 14 }
+	set_variable = { var = int_investments value = 0 }
+	
+	set_technology = { 
+		#Basic Rifles
+		infantry_weapons = 1
+		#Old Radios
+		command_control_equipment = 1
+		
+		#Needed for SPAA template
+		Anti_Air_0 = 1
+		
+		#Needed for HAT and HIW
+		Anti_tank_0 = 1
+
+	}
+	
+	create_field_marshal = {
+		name = "Ahmed Shiyam"
+		picture = "Portrait_Ahmed_Shiyam.dds"
+		traits = { organisational_leader }
+		id = 39600
+		skill = 2
+		attack_skill = 2
+		defense_skill = 2
+		planning_skill = 2
+		logistics_skill = 2
+	}
+
+	create_field_marshal = {
+		name = "Ahmed Shahid"
+		picture = "Portrait_Ahmed_Shahid.dds"
+		traits = { thorough_planner }
+		id = 39601
+		skill = 1
+		attack_skill = 1
+		defense_skill = 1
+		planning_skill = 1
+		logistics_skill = 1
+	}
+
+	create_corps_commander = {
+		name = "Zakariyya Mansoor"
+		picture = "Portrait_Zakariyya_Mansoor.dds"
+		traits = { trickster }
+		id = 39602
+		skill = 1
+		attack_skill = 1
+		defense_skill = 1
+		planning_skill = 1
+		logistics_skill = 1
+	}
+
+	create_corps_commander = {
+		name = "Ali Zuhair"
+		picture = "Portrait_Ali_Zuhair.dds"
+		traits = { naval_invader }
+		id = 39603
+		skill = 1
+		attack_skill = 1
+		defense_skill = 1
+		planning_skill = 1
+		logistics_skill = 1
+	}
+
+	create_corps_commander = {
+		name = "Ahmed Areef"
+		picture = "Portrait_Ahmed_Areef.dds"
+		traits = { urban_assault_specialist }
+		id = 39604
+		skill = 1
+		attack_skill = 1
+		defense_skill = 1
+		planning_skill = 1
+		logistics_skill = 1
+	}
+
+	create_corps_commander = {
+		name = "Abdul Raheem"
+		picture = "Portrait_Abdul_Raheem.dds"
+		traits = { fortress_buster }
+		id = 39605
+		skill = 1
+		attack_skill = 1
+		defense_skill = 1
+		planning_skill = 1
+		logistics_skill = 1
+	}
+
+	create_corps_commander = {
+		name = "Ali Ihusaan"
+		picture = "Portrait_Ali_Ihusaan.dds"
+		traits = { commando }
+		id = 39606
+		skill = 1
+		attack_skill = 1
+		defense_skill = 1
+		planning_skill = 1
+		logistics_skill = 1
+	}
+
+	create_navy_leader = {
+		name = "Mohamed Ibrahim"
+		picture = "Portrait_Mohamed_Ibrahim.dds"
+		traits = { blockade_runner }
+		id = 39607
+	}
+}
+
+2017.1.1 = {
+	capital = 480
+
+	oob = "MLD_2017"
+
+	# Starting tech
+	set_technology = { 
+		legacy_doctrines = 1 
+		modern_blitzkrieg = 1 
+		forward_defense = 1 
+		encourage_nco_iniative = 1 
+		air_land_battle = 1
+		
+
+		#Basic Rifles
+		infantry_weapons = 1
+		#Old Radios
+		command_control_equipment = 1
+		
+		#Needed for SPAA template
+		Anti_Air_0 = 1
+		
+		#Needed for HAT and HIW
+		Anti_tank_0 = 1
+		
+		
+
+	}
+
+	add_ideas = {
+		pop_050
+		widespread_corruption
+		gdp_5
+		sunni
+			stable_growth
+			defence_01
+		edu_04
+		health_05
+		social_02
+		bureau_02
+		police_02
+		volunteer_army
+		volunteer_women
+		maritime_industry
+		international_bankers
+		small_medium_business_owners
+		hybrid
+		tax_cost_20
+	}
+	set_country_flag = negative_maritime_industry
+	set_country_flag = negative_international_bankers
+	set_country_flag = negative_small_medium_business_owners
+	
+	set_variable = { var = debt value = 3 }
+	set_variable = { var = treasury value = 1 }
+	set_variable = { var = int_investments value = 0 }
+	set_variable = { var = tax_rate value = 20 }
+	
+	set_variable = { var = size_modifier value = 0.03 } #0 CIC
+	initial_money_setup = yes
+
+	#Nat focus
+		complete_national_focus = bonus_tech_slots
+		complete_national_focus = Generic_4K_GDPC_slot
+
+	set_politics = {
+
+		parties = {
+			democratic = { 
+				popularity = 87
+			}
+
+			fascism = {
+				popularity = 5
+			}
+			
+			communism = {
+				popularity = 0
+				#banned = no #default is no
+			}
+			
+			neutrality = { 
+				popularity = 8
+			}
+		}
+		
+		ruling_party = democratic
+		last_election = "2013.11.17"
+		election_frequency = 48
+		elections_allowed = yes
+	}
+
+	create_country_leader = {
+		name = "Abdulla Yameen"
+		desc = "POLITICS_Mohamed Cheikh Biadillah_DESC" 
+		picture = "MLD_Abdulla_Yameen.dds"
+		expire = "2050.1.1"
+		ideology = conservatism
+		traits = {
+			#
+		}
+	}
+	
+
+}

@@ -1,0 +1,59 @@
+﻿2000.1.1 = {
+	capital = 300
+	oob = "UNI_2000"
+	set_convoys = 20
+	
+	set_technology = {
+		MBT_1 = 1
+		command_control_equipment = 1
+		infantry_weapons = 1
+		artillery_0 = 1
+		Anti_tank_0 = 1
+		Heavy_Anti_tank_0 = 1
+		Anti_Air_0 = 1
+		util_vehicle_0 = 1
+		
+	}
+	
+	set_politics = {
+
+		parties = {
+			democratic = { 
+				popularity = 100
+			}
+
+			fascism = {
+				popularity = 0
+			}
+			
+			communism = {
+				popularity = 0
+				#banned = no #default is no
+			}
+			neutrality = { 
+				popularity = 0
+			}
+		}
+		
+		ruling_party = democratic
+		last_election = "1932.11.8"
+		election_frequency = 48
+		elections_allowed = no
+	}
+	
+	create_country_leader = {
+		name = "Jonas Savimbi"
+		picture = "Jonas_Savimbi.dds"
+		ideology = Western_Autocracy
+	}
+	
+	declare_war_on = {
+		target = AGL
+		type = civil_war
+	}
+}
+
+2017.1.1 = {
+	capital = 300
+	white_peace = AGL
+}

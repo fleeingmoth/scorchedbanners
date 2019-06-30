@@ -1,0 +1,215 @@
+﻿2000.1.1 = {
+	capital = 878
+	oob = "SUR_2000"
+	set_convoys = 20
+	
+		set_technology = { 
+		legacy_doctrines = 1 
+		modern_blitzkrieg = 1 
+		forward_defense = 1 
+		encourage_nco_iniative = 1 
+		air_land_battle = 1
+		infantry_weapons = 1
+		command_control_equipment = 1
+		land_Drone_equipment = 1
+		Anti_tank_0 = 1
+		Heavy_Anti_tank_0 = 1
+		Anti_Air_0 = 1
+		Early_APC = 1
+		IFV_1 = 1
+		Rec_tank_0 = 1
+		#FOR MPA
+		early_bomber = 1
+		naval_plane1 = 1
+
+	}
+	
+	add_ideas = {
+		gdp_4
+		tax_cost_17
+	}
+	
+	set_variable = { var = debt value = 1 }
+	set_variable = { var = treasury value = 0 }
+	set_variable = { var = tax_rate value = 17 }
+	set_variable = { var = int_investments value = 0 }
+
+	set_politics = {
+
+		parties = {
+			democratic = { 
+				popularity = 94
+			}
+
+			fascism = {
+				popularity = 0
+			}
+			
+			communism = {
+				popularity = 6
+			}
+		}
+		
+		ruling_party = democratic
+		last_election = "1998.5.25"
+		election_frequency = 60
+		elections_allowed = yes
+	}
+
+	create_country_leader = {
+		name = "Jules Wijdenbosch"
+		desc = ""
+		picture = "jules_widjenbosch.dds"
+		ideology = conservatism
+		traits = {
+			#
+		}
+	}
+	
+	create_field_marshal = {
+		name = "Adolf Jardim"
+		picture = "Portrait_Adolf_Jardim.dds"
+		traits = { offensive_doctrine }
+		id = 61500
+		skill = 1
+		attack_skill = 1
+		defense_skill = 1
+		planning_skill = 1
+		logistics_skill = 1
+	}
+
+	create_field_marshal = {
+		name = "Robert Kartodikromo"
+		picture = "Portrait_Robert_Kartodikromo.dds"
+		traits = { logistics_wizard }
+		id = 61501
+		skill = 1
+		attack_skill = 1
+		defense_skill = 1
+		planning_skill = 1
+		logistics_skill = 1
+	}
+
+	create_corps_commander = {
+		name = "Egmond Letterboom"
+		picture = "Portrait_Egmond_Letterboom.dds"
+		traits = { trait_engineer trickster }
+		id = 61502
+		skill = 1
+		attack_skill = 1
+		defense_skill = 1
+		planning_skill = 1
+		logistics_skill = 1
+	}
+
+	create_corps_commander = {
+		name = "Henri van Axeldongen"
+		picture = "Portrait_Henri_van_Axeldongen.dds"
+		traits = { jungle_rat }
+		id = 61503
+		skill = 1
+		attack_skill = 1
+		defense_skill = 1
+		planning_skill = 1
+		logistics_skill = 1
+	}
+
+	create_corps_commander = {
+		name = "Maipath Ganpat"
+		picture = "Portrait_Maipath_Ganpat.dds"
+		traits = { urban_assault_specialist }
+		id = 61504
+		skill = 1
+		attack_skill = 1
+		defense_skill = 1
+		planning_skill = 1
+		logistics_skill = 1
+	}
+
+	create_navy_leader = {
+		name = "Marino Acton"
+		picture = "Portrait_Marino_Acton.dds"
+		traits = { blockade_runner }
+		id = 61505
+	}
+}
+
+2017.1.1 = {
+	capital = 878
+	
+	oob = "SUR_2017"
+	
+	add_ideas = {
+		tax_cost_15
+		pop_050
+		unrestrained_corruption
+		gdp_4
+		pluralist
+		rentier_state
+		export_economy
+		depression
+		defence_01
+		edu_02
+		health_02
+		social_02
+		bureau_03
+		police_03
+		volunteer_army
+		volunteer_women
+		landowners
+		industrial_conglomerates
+		fossil_fuel_industry
+		civil_law
+		cartels_4
+	}
+	
+	set_country_flag = negative_landowners
+	set_country_flag = negative_industrial_conglomerates
+	set_country_flag = negative_fossil_fuel_industry
+	
+	set_variable = { var = debt value = 2 }
+	set_variable = { var = treasury value = 0.2 }
+	set_variable = { var = int_investments value = 0 }
+	set_variable = { var = tax_rate value = 15 }
+	
+	set_variable = { var = size_modifier value = 0.08 } #1 CIC
+	initial_money_setup = yes
+
+	#Nat focus
+	complete_national_focus = bonus_tech_slots
+	complete_national_focus = Generic_4K_GDPC_slot
+
+
+
+	set_politics = {
+
+		parties = {
+			democratic = { 
+				popularity = 94
+			}
+
+			fascism = {
+				popularity = 0
+			}
+			
+			communism = {
+				popularity = 6
+			}
+		}
+		
+		ruling_party = democratic
+		last_election = "2015.5.25"
+		election_frequency = 60
+		elections_allowed = yes
+	}
+
+	create_country_leader = {
+		name = "Desi Bouterse"
+		desc = ""
+		picture = "Desi_Bouterse.dds"
+		ideology = conservatism
+		traits = {
+			#
+		}
+	}
+}

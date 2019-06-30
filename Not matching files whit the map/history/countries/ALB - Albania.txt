@@ -1,0 +1,534 @@
+﻿2000.1.1 = {
+	capital = 137
+	oob = "ALB_2000"
+	set_convoys = 5
+	
+	set_technology = {
+		infantry_weapons = 1
+		Anti_tank_0 = 1
+		Heavy_Anti_tank_0 = 1
+		Anti_Air_0 = 1
+		command_control_equipment = 1
+		Early_APC = 1
+		artillery_0 = 1
+		cruiser_1 = 1
+		destroyer_1 = 1
+		frigate_1 = 1
+		corvette_1 = 1
+		corvette_2 = 1
+	}
+	
+	add_ideas = {
+		gdp_3
+		tax_cost_18
+	}
+	
+	set_variable = { var = debt value = 3 }
+	set_variable = { var = int_investments value = 0 }
+	set_variable = { var = treasury value = 0.58 }
+	set_variable = { var = tax_rate value = 18 }
+	
+	set_politics = {
+
+		parties = {
+			democratic = { 
+				popularity = 41
+			}
+
+			fascism = {
+				popularity = 0
+			}
+			
+			communism = {
+				popularity = 37
+			}
+			
+			neutrality = {
+				popularity = 8
+			}
+			
+			nationalist = {
+				popularity = 0
+			}
+		}
+		
+		ruling_party = democratic
+		last_election = "1997.9.21"
+		election_frequency = 48
+		elections_allowed = yes
+	}
+	create_country_leader = {
+		name = "Rexhep Meidani"
+		picture = "Rexhep_Meidani.dds"
+		expire = "2065.1.1"
+		ideology = socialism
+		traits = {
+		
+		}
+	}
+	create_country_leader = {
+		name = "Sali Berisha"
+		picture = ""
+		expire = "2006.3.26"
+		ideology = Conservative
+		traits = {
+		
+		}
+	}
+	create_country_leader = {
+		name = "Genc Pollo"
+		picture = ""
+		expire = "2003.3.12"
+		ideology = Neutral_conservatism
+		traits = {
+		
+		}
+	}
+	create_country_leader = {
+		name = "Leka"
+		picture = ""
+		expire = "2065.1.1"
+		ideology = Kingdom
+		traits = {
+		
+		}
+	}
+	
+	create_country_leader = {
+		name = "Ilir Meta"
+		picture = "Ilir_Meta.dds"
+		expire = "2065.1.1"
+		ideology = socialism
+		traits = {
+			#
+		}
+	}
+	
+	create_field_marshal = {
+		name = "Bardhyl Kollcaku"
+		picture = "Portrait_Bardhyl_Kollcaku.dds"
+		traits = { organisational_leader }
+		id = 2100
+		skill = 1
+		attack_skill = 1
+		defense_skill = 1
+		planning_skill = 1
+		logistics_skill = 1
+	}
+
+	create_field_marshal = {
+		name = "Vladimir Avdiaj"
+		picture = "Portrait_Vladimir_Avdiaj.dds"
+		traits = { logistics_wizard }
+		id = 2101
+		skill = 1
+		attack_skill = 1
+		defense_skill = 1
+		planning_skill = 1
+		logistics_skill = 1
+	}
+
+	create_field_marshal = {
+		name = "Jeronim Bazo"
+		picture = "Portrait_Jeronim_Bazo.dds"
+		traits = { old_guard inspirational_leader }
+		id = 2102
+		skill = 2
+		attack_skill = 2
+		defense_skill = 2
+		planning_skill = 2
+		logistics_skill = 2
+	}
+
+	create_field_marshal = {
+		name = "Dedë Prenga"
+		picture = "Portrait_Dede_Prenga.dds"
+		traits = { thorough_planner }
+		id = 2103
+		skill = 1
+		attack_skill = 1
+		defense_skill = 1
+		planning_skill = 1
+		logistics_skill = 1
+	}
+
+	create_field_marshal = {
+		name = "Manushaqe Shehu"
+		picture = "Portrait_Manushaqe_Shehu.dds"
+		traits = { fast_planner }
+		id = 2104
+		skill = 1
+		attack_skill = 1
+		defense_skill = 1
+		planning_skill = 1
+		logistics_skill = 1
+	}
+
+	create_corps_commander = {
+		name = "Nazmi Cahani"
+		picture = "Portrait_Nazmi_Cahani.dds"
+		traits = { panzer_leader }
+		id = 2105
+		skill = 1
+		attack_skill = 1
+		defense_skill = 1
+		planning_skill = 1
+		logistics_skill = 1
+	}
+
+	create_corps_commander = {
+		name = "Dhori Spirollari"
+		picture = "Portrait_Dhori_Spirollari.dds"
+		traits = {  }
+		id = 2106
+		skill = 1
+		attack_skill = 1
+		defense_skill = 1
+		planning_skill = 1
+		logistics_skill = 1
+	}
+
+	create_corps_commander = {
+		name = "Ekland Dauti"
+		picture = "Portrait_Ekland_Dauti.dds"
+		traits = { commando urban_assault_specialist }
+		id = 2107
+		skill = 1
+		attack_skill = 1
+		defense_skill = 1
+		planning_skill = 1
+		logistics_skill = 1
+	}
+
+	create_corps_commander = {
+		name = "Qemal Shkurti"
+		picture = "Portrait_Qemal_Shkurti.dds"
+		traits = { naval_invader }
+		id = 2108
+		skill = 1
+		attack_skill = 1
+		defense_skill = 1
+		planning_skill = 1
+		logistics_skill = 1
+	}
+
+	create_corps_commander = {
+		name = "Ardian Bali"
+		picture = "Portrait_Ardian_Bali.dds"
+		traits = { trait_engineer }
+		id = 2109
+		skill = 1
+		attack_skill = 1
+		defense_skill = 1
+		planning_skill = 1
+		logistics_skill = 1
+	}
+
+	create_corps_commander = {
+		name = "Luan Hoxha"
+		picture = "Portrait_Luan_Hoxha.dds"
+		traits = { bearer_of_artillery }
+		id = 2110
+		skill = 2
+		attack_skill = 2
+		defense_skill = 2
+		planning_skill = 2
+		logistics_skill = 2
+	}
+
+	create_navy_leader = {
+		name = "Ylber Dogjani"
+		picture = "Portrait_Ylber_Dogjani.dds"
+		traits = { old_guard_navy superior_tactician }
+		id = 2111
+	}
+
+	create_navy_leader = {
+		name = "Kristaq Gërveni"
+		picture = "Portrait_Kristaq_Gerveni.dds"
+		traits = { blockade_runner }
+		id = 2112
+	}
+
+	create_navy_leader = {
+		name = "Kudret Çela"
+		picture = "Portrait_Kudret_Cela.dds"
+		traits = { spotter }
+		id = 2113
+	}
+}
+
+2017.1.1 = {
+	capital = 137
+	oob = "ALB_2017"
+	set_convoys = 5
+	
+	add_ideas = {
+		pop_050
+		#small_medium_business_owners
+		#Labour_Unions
+		#Mass_Media
+		unrestrained_corruption
+		gdp_5
+		sunni
+			stable_growth
+			defence_01
+		edu_02
+		health_02
+		social_02
+		bureau_02
+		police_03
+		non_secret_ballots
+		volunteer_army
+		volunteer_women
+		NATO_member
+		international_bankers
+		landowners
+		industrial_conglomerates
+		civil_law
+		tax_cost_24
+	}
+	#set_country_flag = gdp_3
+	set_country_flag = positive_international_bankers
+	set_country_flag = positive_landowners
+	
+	set_variable = { var = debt value = 9 }
+	set_variable = { var = int_investments value = 0 }
+	set_variable = { var = treasury value = 3 }
+	set_variable = { var = tax_rate value = 24 }
+	
+	set_variable = { var = size_modifier value = 0.14 } #2 CIC
+	initial_money_setup = yes
+	
+	#Nat focus
+	complete_national_focus = bonus_tech_slots
+	complete_national_focus = Generic_4K_GDPC_slot
+	
+	set_technology = { 
+		legacy_doctrines = 1 
+		modern_blitzkrieg = 1 
+		forward_defense = 1 
+		encourage_nco_iniative = 1 
+		air_land_battle = 1
+		infantry_weapons = 1
+		
+		combat_eng_equipment = 1
+		night_vision_1 = 1
+		night_vision_2 = 1
+		command_control_equipment = 1
+		Anti_tank_0 = 1
+		artillery_0 = 1
+		Anti_Air_0 = 1
+		util_vehicle_0 = 1
+		Heavy_Anti_tank_0 = 1
+	}
+	
+	set_politics = {
+
+		parties = {
+			democratic = { 
+				popularity = 60
+			}
+
+			fascism = {
+				popularity = 0
+			}
+			
+			communism = {
+				popularity = 5
+			}
+			
+			neutrality = {
+				popularity = 25
+			}
+			
+			nationalist = {
+				popularity = 10
+			}
+		}
+		
+		ruling_party = democratic
+		last_election = "2013.6.23"
+		election_frequency = 48
+		elections_allowed = yes
+	}
+	
+	#NATO military access
+	diplomatic_relation = {
+		country = BEL
+		relation = military_access
+		active = yes
+	}
+	diplomatic_relation = {
+		country = BUL
+		relation = military_access
+		active = yes
+	}
+	diplomatic_relation = {
+		country = CAN
+		relation = military_access
+		active = yes
+	}
+	diplomatic_relation = {
+		country = CRO
+		relation = military_access
+		active = yes
+	}
+	diplomatic_relation = {
+		country = CZH
+		relation = military_access
+		active = yes
+	}
+	diplomatic_relation = {
+		country = DEN
+		relation = military_access
+		active = yes
+	}
+	diplomatic_relation = {
+		country = EST
+		relation = military_access
+		active = yes
+	}
+	diplomatic_relation = {
+		country = FRA
+		relation = military_access
+		active = yes
+	}
+	diplomatic_relation = {
+		country = GER
+		relation = military_access
+		active = yes
+	}
+	diplomatic_relation = {
+		country = GRE
+		relation = military_access
+		active = yes
+	}
+	diplomatic_relation = {
+		country = HUN
+		relation = military_access
+		active = yes
+	}
+	diplomatic_relation = {
+		country = ICE
+		relation = military_access
+		active = yes
+	}
+	diplomatic_relation = {
+		country = ITA
+		relation = military_access
+		active = yes
+	}
+	diplomatic_relation = {
+		country = LAT
+		relation = military_access
+		active = yes
+	}
+	diplomatic_relation = {
+		country = LIT
+		relation = military_access
+		active = yes
+	}
+	diplomatic_relation = {
+		country = LUX
+		relation = military_access
+		active = yes
+	}
+	diplomatic_relation = {
+		country = HOL
+		relation = military_access
+		active = yes
+	}
+	diplomatic_relation = {
+		country = NOR
+		relation = military_access
+		active = yes
+	}
+	diplomatic_relation = {
+		country = POL
+		relation = military_access
+		active = yes
+	}
+	diplomatic_relation = {
+		country = POR
+		relation = military_access
+		active = yes
+	}
+	diplomatic_relation = {
+		country = ROM
+		relation = military_access
+		active = yes
+	}
+	diplomatic_relation = {
+		country = SLO
+		relation = military_access
+		active = yes
+	}
+	diplomatic_relation = {
+		country = SLV
+		relation = military_access
+		active = yes
+	}
+	diplomatic_relation = {
+		country = SPR
+		relation = military_access
+		active = yes
+	}
+	diplomatic_relation = {
+		country = TUR
+		relation = military_access
+		active = yes
+	}
+	diplomatic_relation = {
+		country = ENG
+		relation = military_access
+		active = yes
+	}
+	diplomatic_relation = {
+		country = USA
+		relation = military_access
+		active = yes
+	}
+	
+	create_country_leader = {
+		name = "Lulzim Basha" 
+		desc = "POLITICS_EARL_BROWDER_DESC"
+		picture = "lulzim_basha.dds"
+		expire = "2065.1.1"
+		ideology = conservatism
+		traits = {
+			#
+		}
+	}
+
+	create_country_leader = {
+		name = "Collective leadership"
+		picture = "collective_leadership.dds"
+		expire = "2065.1.1"
+		ideology = Communist-State
+		traits = {
+			#
+		}
+	}
+
+	create_country_leader = {
+		name = "Shpetim Idrizi"
+		picture = "shpetim_idrizi.dds"
+		expire = "2065.1.1"
+		ideology = Nat_Populism
+		traits = {
+			#
+		}
+	}
+
+	create_country_leader = {
+		name = "Edi Rama"
+		picture = "ALB-edi-rama.dds"
+		expire = "2065.1.1"
+		ideology = socialism
+		traits = {
+			#
+		}
+	}
+
+}

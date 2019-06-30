@@ -1,0 +1,247 @@
+﻿2000.1.1 = {
+	capital = 172
+	oob = "KUW_2000"
+	set_convoys = 20
+	
+	add_ideas = {
+		gdp_9
+	}
+	
+	set_technology = { 
+
+		#For templates
+		infantry_weapons = 1
+		combat_eng_equipment = 1
+		command_control_equipment = 1
+		Anti_tank_0 = 1
+		Heavy_Anti_tank_0 = 1
+		artillery_0 = 1
+		SP_arty_0 = 1
+		Anti_Air_0 = 1
+		Early_APC = 1
+		APC_1 = 1
+		IFV_1 = 1
+		MBT_1 = 1
+		ENGI_MBT_1 = 1
+		util_vehicle_0 = 1
+	}
+	
+	set_politics = {
+
+		parties = {
+			democratic = { 
+				popularity = 60
+			}
+
+			fascism = {
+				popularity = 40
+			}
+			
+			communism = {
+				popularity = 0
+				#banned = no #default is no
+			}
+			
+			neutrality = { 
+				popularity = 0
+			}
+		}
+		
+		ruling_party = democratic
+		last_election = "1932.11.8"
+		election_frequency = 48
+		elections_allowed = no
+	}
+
+	create_country_leader = {
+		name = "Jaber Al-Ahmad Al-Sabah"
+		desc = "POLITICS_Sabah_Al-Ahmad_Al-Jaber_Al-Sabah_DESC" 
+		picture = "jaber_al_sabah.dds"
+		expire = "2006.1.1"
+		ideology = Western_Autocracy
+		traits = {
+			#
+		}
+	}
+	
+	create_field_marshal = {
+		name = "Mohammed Khaled Al-Khadher"
+		picture = "generals/Portrait_Mohammed_Khaled_Al_Khadher.dds"
+		traits = { old_guard organisational_leader }
+		id = 33900
+		skill = 3
+		attack_skill = 3
+		defense_skill = 3
+		planning_skill = 3
+		logistics_skill = 3
+	}
+
+	create_field_marshal = {
+		name = "Sheikh Abdullah Nawaf Al-Ahmad Al-Sabah"
+		picture = "generals/Portrait_Abdullah_Al_Nawaf_Al_Sabah.dds"
+		traits = { fast_planner }
+		id = 33901
+		skill = 3
+		attack_skill = 3
+		defense_skill = 3
+		planning_skill = 3
+		logistics_skill = 3
+	}
+
+	create_corps_commander = {
+		name = "Mahmoud Al-Dousari"
+		picture = "generals/Portrait_Mahmoud_Al_Dousari.dds"
+		traits = { urban_assault_specialist }
+		id = 33902
+		skill = 2
+		attack_skill = 2
+		defense_skill = 2
+		planning_skill = 2
+		logistics_skill = 2
+	}
+
+	create_corps_commander = {
+		name = "Sheikh Khaled Saleh Abu Mohammad Al-Sabah"
+		picture = "generals/Portrait_Khaled_Al_Sabah.dds"
+		traits = { panzer_leader desert_fox }
+		id = 33903
+		skill = 2
+		attack_skill = 2
+		defense_skill = 2
+		planning_skill = 2
+		logistics_skill = 2
+	}
+
+	create_navy_leader = {
+		name = "Khalid Ahmed Abdullah Al Kandari"
+		picture = "admirals/Portrait_Khalid_Ahmed_Abdullah_Al_Kandari.dds"
+		traits = { superior_tactician }
+		id = 33904
+	}
+}
+
+2017.1.1 = {
+	capital = 172
+	oob = "KUW_2017"
+	set_convoys = 20
+	
+	add_ideas = {
+		pop_050
+		unrestrained_corruption
+		gdp_8
+		sunni
+		kuwait_expat
+		youth_radicalization
+		rentier_state
+		export_economy
+		GCC_member
+		stagnation
+		defence_05
+		edu_03
+		health_03
+		social_06
+		bureau_03
+		police_04
+		al_jazeera_banned
+		draft_army
+		volunteer_women
+		Major_Non_NATO_Ally
+		restoring_hope
+		fossil_fuel_industry
+		international_bankers
+		The_Ulema
+		hybrid	
+		tax_cost_10
+	}
+	
+	#set_country_flag = gdp_8
+	set_country_flag = Major_Non_NATO_Ally
+	set_country_flag = Major_Importer_US_Arms
+	set_country_flag = enthusiastic_fossil_fuel_industry
+	set_country_flag = positive_international_bankers
+	
+	set_variable = { var = debt value = 25 }
+	set_variable = { var = treasury value = 31 }
+	set_variable = { var = int_investments value = 524 }
+	set_variable = { var = tax_rate value = 10 }
+	
+	set_variable = { var = size_modifier value = 0.14 } #2 CIC
+	initial_money_setup = yes
+
+	#Nat focus
+	complete_national_focus = bonus_tech_slots
+	complete_national_focus = Generic_4K_GDPC_slot
+	complete_national_focus = Generic_15K_GDPC_slot
+	complete_national_focus = Generic_30K_GDPC_slot
+	complete_national_focus = Generic_4_IC_slot
+	
+	add_opinion_modifier = { target = PER modifier = hostile_status }
+	add_opinion_modifier = { target = SYR modifier = hostile_status }
+	add_opinion_modifier = { target = IRQ modifier = hostile_status }
+	
+	# Starting tech
+	set_technology = { 
+		legacy_doctrines = 1 
+		modern_blitzkrieg = 1 
+		forward_defense = 1 
+		encourage_nco_iniative = 1 
+		air_land_battle = 1
+		night_vision_1 = 1
+		night_vision_2 = 1
+
+		#For templates
+		infantry_weapons = 1
+		combat_eng_equipment = 1
+		command_control_equipment = 1
+		Anti_tank_0 = 1
+		Heavy_Anti_tank_0 = 1
+		artillery_0 = 1
+		SP_arty_0 = 1
+		Anti_Air_0 = 1
+		Early_APC = 1
+		APC_1 = 1
+		IFV_1 = 1
+		MBT_1 = 1
+		ENGI_MBT_1 = 1
+		util_vehicle_0 = 1
+	}
+
+	set_politics = {
+
+		parties = {
+			democratic = { 
+				popularity = 60
+			}
+
+			fascism = {
+				popularity = 40
+			}
+			
+			communism = {
+				popularity = 0
+				#banned = no #default is no
+			}
+			
+			neutrality = { 
+				popularity = 0
+			}
+		}
+		
+		ruling_party = democratic
+		last_election = "1932.11.8"
+		election_frequency = 48
+		elections_allowed = no
+	}
+
+	create_country_leader = {
+		name = "Sabah Al-Ahmad Al-Jaber Al-Sabah"
+		desc = "POLITICS_Sabah_Al-Ahmad_Al-Jaber_Al-Sabah_DESC" 
+		picture = "Sabah_Al-Ahmad_Al-Jaber_Al-Sabah.dds"
+		expire = "2050.1.1"
+		ideology = Western_Autocracy
+		traits = {
+			#
+		}
+	}
+	
+}

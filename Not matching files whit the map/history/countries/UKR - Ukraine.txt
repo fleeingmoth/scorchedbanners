@@ -1,0 +1,554 @@
+﻿
+##### 2000 #####
+
+2000.1.1 = {
+	capital = 698
+	oob = "UKR_2000"
+	set_convoys = 20
+
+	add_ideas = {
+		multi_ethnic_state_idea
+		orthodox_christian
+		gdp_3
+		international_bankers
+		farmers
+		oligarchs
+		civil_law
+		tax_cost_14
+		partial_draft_army
+		UKR_west_east_rivalry_balanced
+		UKR_kleptocracy
+		UKR_to_many_generals
+		UKR_budapest_memorandum
+	}
+	
+	set_country_flag = negative_oligarchs
+	
+	set_country_flag = UKR_PRRU
+	set_country_flag = UKR_PMU
+	
+	set_variable = { conservatism_pop = 0.200 }
+	set_variable = { liberalism_pop = 0.040 }
+	set_variable = { socialism_pop = 0.030 }
+	set_variable = { Neutral_conservatism_pop = 0.180 }
+	set_variable = { oligarchism_pop = 0.420 }
+	set_variable = { neutral_Social_pop = 0.100 }
+	set_variable = { Neutral_Libertarian_pop = 0.005 }
+	set_variable = { Neutral_Green_pop = 0.010 }
+	set_variable = { Nat_Populism_pop = 0.070 }
+	
+	
+	set_variable = { var = debt value = 21 }
+	set_variable = { var = treasury value = 2 }
+	set_variable = { var = tax_rate value = 14 }
+	set_variable = { var = int_investments value = 0 }
+	
+	set_technology = {
+		legacy_doctrines = 1 
+		armoured_mass_assault = 1 
+		deep_echelon_advance = 1 
+		army_group_operational_freedom = 1 
+		massed_artillery = 1
+		
+		frigate_1 = 1
+		frigate_2 = 1 #Krivak class
+		
+		corvette_1 = 1
+		
+		infantry_weapons = 1
+		infantry_weapons1 = 1
+		infantry_weapons2 = 1
+		infantry_weapons3 = 1
+		
+		Anti_Air_0 = 1
+		Anti_Air_1 = 1
+		AA_upgrade_1 = 1
+		AA_upgrade_3 = 1
+		
+		Anti_tank_0 = 1
+		Anti_tank_1 = 1 #Skif
+		AT_upgrade_1 = 1
+		AT_upgrade_2 = 1
+		
+		Heavy_Anti_tank_0 = 1
+		Heavy_Anti_tank_1 = 1
+		
+		command_control_equipment = 1
+		command_control_equipment1 = 1
+		
+		combat_eng_equipment = 1
+		
+		land_Drone_equipment = 1
+		
+		Early_APC = 1
+		MBT_1 = 1
+		MBT_2 = 1
+		MBT_3 = 1 #T-84
+		
+		ENGI_MBT_1 = 1
+		
+		Rec_tank_0 = 1 #BRDM-2
+		
+		util_vehicle_0 = 1
+		
+		IFV_1 = 1
+		IFV_2 = 1
+		IFV_3 = 1
+		IFV_4 = 1
+		
+		Air_IFV_1 = 1
+		
+		APC_1 = 1
+		APC_2 = 1
+		APC_3 = 1
+		APC_4 = 1
+
+		Air_APC_1 = 1
+		Air_APC_2 = 1
+		Air_APC_3 = 1
+		Air_APC_4 = 1
+		
+		SP_arty_0 = 1
+		
+		artillery_0 = 1
+		artillery_1 = 1 #2A65
+		Arty_upgrade_1 = 1
+		
+		SP_R_arty_0 = 1 #2S7
+		
+		SP_Anti_Air_0 = 1 #SS-21 Scarab
+		
+		early_helicopter = 1
+		attack_helicopter1 = 1
+		transport_helicopter1 = 1
+		
+		early_fighter = 1
+		Strike_fighter1 = 1
+		
+		cas1 = 1
+		
+		night_vision_1 = 1
+		night_vision_2 = 1
+		
+		landing_craft = 1
+		
+		early_bomber = 1
+		transport_plane1 = 1
+		transport_plane2 = 1
+		transport_plane3 = 1
+		
+		
+	}
+	
+	set_politics = {
+
+		parties = {
+			democratic = { 
+				popularity = 21
+			}
+
+			fascism = {
+				popularity = 0
+			}
+			
+			communism = {
+				popularity = 38
+			}
+			
+			neutrality = {
+				popularity = 41
+			}
+			
+			nationalist = {
+				 popularity = 0
+			}
+		}
+		
+		ruling_party = neutrality
+		last_election = "1999.6.13"
+		election_frequency = 72
+		elections_allowed = yes
+	}
+	
+	create_country_leader = {
+		name = "Leonid Kuchma"
+		desc = "POLITICS_FRANKLIN_DELANO_ROOSEVELT_DESC"
+		picture = "gfx/leaders/UKR/Leonid_Kuchma.dds"
+		expire = "2004.1.1"
+		ideology = oligarchism
+		traits = {
+			ruthless
+		}
+	}
+	
+	create_country_leader = {
+		name = "Viktor Yanukovych"
+		desc = "POLITICS_FRANKLIN_DELANO_ROOSEVELT_DESC"
+		picture = "gfx/leaders/UKR/Viktor_Yanukovych.dds"
+		expire = "2065.1.1"
+		ideology = Conservative
+		traits = {
+			inexperienced
+			stubborn
+		}
+	}
+	
+	create_country_leader = {
+		name = "Viktor Yushchenko"
+		desc = "POLITICS_FRANKLIN_DELANO_ROOSEVELT_DESC"
+		picture = "gfx/leaders/UKR/Viktor_Yushchenko.dds"
+		expire = "2065.1.1"
+		ideology = Conservative
+		traits = {
+			western_conservatism
+			humble
+		}
+	}
+	
+
+
+##### ARMY #####	
+
+### Field Marshals ###
+	
+	create_field_marshal = {
+		name = "Viktor Muzhenko"
+		picture = "Portrait_Viktor_Muzhenko.dds"
+		traits = { old_guard thorough_planner }
+		id = 67800
+		skill = 4
+		attack_skill = 4
+		defense_skill = 4
+		planning_skill = 4
+		logistics_skill = 4
+	}
+
+	create_field_marshal = {
+		name = "Serhiy Popko"
+		picture = "Portrait_Serhiy_Popko.dds"
+		traits = { offensive_doctrine }
+		id = 67801
+		skill = 3
+		attack_skill = 3
+		defense_skill = 3
+		planning_skill = 3
+		logistics_skill = 3
+	}
+	
+### Generals ###
+
+	create_corps_commander = {
+		name = "Anatoly Shevchenko"
+		picture = "Portrait_Anatoly_Shevchenko.dds"
+		traits = { panzer_leader }
+		id = 67802
+		skill = 1
+		attack_skill = 1
+		defense_skill = 1
+		planning_skill = 1
+		logistics_skill = 1
+	}
+
+	create_corps_commander = {
+		name = "Mykhailo Zabrodskyi"
+		picture = "Portrait_Mykhailo_Zabrodskyi.dds"
+		traits = { commando }
+		id = 67803
+		skill = 2
+		attack_skill = 2
+		defense_skill = 2
+		planning_skill = 2
+		logistics_skill = 2
+	}
+
+	create_corps_commander = {
+		name = "Oleksandr Lokota"
+		picture = "Portrait_Oleksandr_Lokota.dds"
+		traits = { trickster ranger }
+		id = 67804
+		skill = 2
+		attack_skill = 2
+		defense_skill = 2
+		planning_skill = 2
+		logistics_skill = 2
+	}
+
+	create_corps_commander = {
+		name = "Serhiy Drozdov"
+		picture = "Portrait_Serhiy_Drozdov.dds"
+		traits = { trait_engineer }
+		id = 67805
+		skill = 3
+		attack_skill = 3
+		defense_skill = 3
+		planning_skill = 3
+		logistics_skill = 3
+	}
+
+	create_corps_commander = {
+		name = "Serhiy Shaptala"
+		picture = "Portrait_Serhiy_Shaptala.dds"
+		traits = { trait_mountaineer }
+		id = 67806
+		skill = 1
+		attack_skill = 1
+		defense_skill = 1
+		planning_skill = 1
+		logistics_skill = 1
+	}
+
+	create_corps_commander = {
+		name = "Vasyl Zubanich"
+		picture = "Portrait_Vasyl_Zubanich.dds"
+		traits = { trait_mountaineer }
+		id = 67807
+		skill = 1
+		attack_skill = 1
+		defense_skill = 1
+		planning_skill = 1
+		logistics_skill = 1
+	}
+
+	create_corps_commander = {
+		name = "Viktor Nikolyuk"
+		picture = "Portrait_Viktor_Nikolyuk.dds"
+		traits = { panzer_leader }
+		id = 67808
+		skill = 1
+		attack_skill = 1
+		defense_skill = 1
+		planning_skill = 1
+		logistics_skill = 1
+	}
+
+	create_corps_commander = {
+		name = "Volodymyr Shvorak"
+		picture = "Portrait_Volodymyr_Shvorak.dds"
+		traits = { commando }
+		id = 67809
+		skill = 1
+		attack_skill = 1
+		defense_skill = 1
+		planning_skill = 1
+		logistics_skill = 1
+	}
+
+### Admirals ###
+
+	create_navy_leader = {
+		name = "Ihor Voronchenko"
+		picture = "Portrait_Ihor_Voronchenko.dds"
+		traits = { old_guard_navy superior_tactician }
+		id = 67810
+	}
+
+	create_navy_leader = {
+		name = "Serhiy Hayduk"
+		picture = "Portrait_Serhiy_Hayduk.dds"
+		traits = { blockade_runner }
+		id = 67811
+	}
+}
+	
+##### 2017 #####
+
+2017.1.1 = {
+	capital = 698
+	oob = "UKR_2017"
+	set_convoys = 25
+	
+	remove_ideas = { 
+		UKR_west_east_rivalry_balanced
+	}
+	
+	add_ideas = {
+		pop_050
+		orthodox_christian
+		rampant_corruption
+		gdp_3
+		stagnation
+		defence_04
+		edu_04
+		health_02
+		bureau_03
+		police_03
+		non_secret_ballots
+		accountable_press
+		draft_army
+		volunteer_women
+		oligarchs
+		international_bankers
+		farmers
+		USA_usaid #https://explorer.usaid.gov/aid-dashboard.html
+		civil_law
+		tax_cost_34
+		UKR_west_strengthened
+		multi_ethnic_state_idea
+	}
+
+	set_country_flag = negative_oligarchs
+	set_country_flag = NATO_Aspirant
+	
+	### Unlock new parties
+	
+	clr_country_flag = UKR_PRRU
+	clr_country_flag = UKR_PMU
+	
+	set_country_flag = UKR_BPP
+	set_country_flag = UKR_FIVE_TEN
+	set_country_flag = UKR_OPPOSITION_BLOC
+	set_country_flag = UKR_RIGHT_SECTOR
+	set_country_flag = UKR_JUSTICE
+	set_country_flag = UKR_CIVIL_POSITION
+	
+	set_variable = { conservatism_pop = 0.185 }
+	set_variable = { liberalism_pop = 0.060 }
+	set_variable = { socialism_pop = 0.070 }
+	set_variable = { Neutral_conservatism_pop = 0.290 }
+	set_variable = { oligarchism_pop = 0.300 }
+	set_variable = { neutral_Social_pop = 0.005 }
+	set_variable = { Neutral_Libertarian_pop = 0.030 }
+	set_variable = { Neutral_Green_pop = 0.010 }
+	set_variable = { Nat_Populism_pop = 0.100 }
+	
+	set_variable = { var = debt value = 82 }
+	set_variable = { var = treasury value = 16 }
+	set_variable = { var = int_investments value = 0 }
+	set_variable = { var = tax_rate value = 34 }
+	
+	set_variable = { var = size_modifier value = 0.96 } #7 CIC
+	initial_money_setup = yes
+
+	#Nat focus
+	complete_national_focus = bonus_tech_slots
+	complete_national_focus = Generic_4K_GDPC_slot
+	complete_national_focus = Generic_4_IC_slot
+	complete_national_focus = Generic_8_IC_slot
+	complete_national_focus = Generic_16_IC_slot
+	
+	set_technology = { 
+		legacy_doctrines = 1 
+		armoured_mass_assault = 1 
+		deep_echelon_advance = 1 
+		army_group_operational_freedom = 1 
+		massed_artillery = 1
+		
+		missile_frigate_1 = 1
+		missile_frigate_2 = 1
+		missile_frigate_3 = 1 #Gaiduck class
+		
+		corvette_1 = 1
+		
+		infantry_weapons3 = 1
+		infantry_weapons4 = 1 #Vepr
+		
+		combat_eng_equipment = 1
+		
+		land_Drone_equipment1 = 1
+		
+		IFV_5 = 1 #BTR-4
+		
+		APC_5 = 1 #BTR-4
+
+		Air_apc_5 = 1 #BTR-4
+		
+		transport_plane4 = 1 #Antonov An-178
+			
+	}
+	
+	set_politics = {
+
+		parties = {
+			democratic = { 
+				popularity = 39
+			}
+
+			fascism = {
+				popularity = 0
+			}
+			
+			communism = {
+				popularity = 22			
+			}
+			
+			neutrality = {
+				popularity = 31
+			}
+			
+			nationalist = {
+				popularity = 9
+			}
+		}
+		
+		ruling_party = neutrality
+		last_election = "2014.5.25"
+		election_frequency = 60
+		elections_allowed = yes
+	}
+	
+	create_country_leader = {
+		name = "Petro Poroshenko"
+		picture = "gfx/leaders/UKR/Petro_Poroshenko.dds"
+		expire = "2050.1.1"
+		ideology = oligarchism
+		traits = {
+			pro_american
+			cautious
+		}
+	}
+	
+	create_country_leader = {
+		name = "Yulia Tymoshenko"
+		picture = "gfx/leaders/UKR/Yulia_Tymoshenko.dds"
+		expire = "2060.1.1"
+		ideology = conservatism
+		traits = {
+			career_politician
+			sly
+		}
+	}
+	
+	create_country_leader = {
+		name = "Yuriy Boyko"
+		picture = "gfx/leaders/UKR/Emerging_Yuriy_Boyko.dds"
+		expire = "2060.1.1"
+		ideology = Conservative
+		traits = {
+			rational
+		}
+	}
+
+	create_country_leader = {
+		name = "Mikheil Saakashvili"
+		picture = "gfx/leaders/UKR/Mikheil_Saakashvili.dds"
+		expire = "2060.1.1"
+		ideology = liberalism
+		traits = {
+			western_liberalism
+			career_politician
+			pro_american
+			emotional
+		}
+	}
+
+	create_country_leader = {
+		name = "Andriy Tarasenko"
+		picture = "gfx/leaders/UKR/Nat_Andriy_Tarasenko.dds"
+		expire = "2065.1.1"
+		ideology = Nat_Fascism
+		traits = {
+			military_career
+			nationalist_Nat_Populism
+		}
+	}
+
+	create_country_leader = {
+		name = "Oleh Tyahnybok"
+		picture = "gfx/leaders/UKR/Nat_Oleh_Tyahnybok.dds"
+		expire = "2065.1.1"
+		ideology = Nat_Populism
+		traits = {
+			nationalist_Nat_Populism
+		}
+	}
+}

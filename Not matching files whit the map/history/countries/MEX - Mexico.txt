@@ -1,0 +1,573 @@
+﻿2000.1.1 = {
+	capital = 835
+	oob = "MEX_2000"
+	
+	set_politics = {
+
+		parties = {
+			democratic = { 
+				popularity = 92
+			}
+
+			fascism = {
+				popularity = 0
+			}
+			
+			communism = {
+				popularity = 0
+			}
+			
+			neutrality = {
+				popularity = 8
+			}
+			
+			nationalist = {
+				 popularity = 0
+			}
+		}
+		
+		ruling_party = democratic
+		last_election = "1999.6.13"
+		election_frequency = 48
+		elections_allowed = yes
+	}
+	
+	set_variable = { conservatism_pop = 0.37 }
+	set_variable = { liberalism_pop = 0.39 }
+	set_variable = { socialism_pop = 0.16 }
+	set_variable = { Neutral_Communism_pop = 0.05 }
+	set_variable = { Neutral_Green_pop = 0.03 }
+	
+	recalculate_party = yes
+	
+	set_technology = { 
+		infantry_weapons = 1
+		
+		#HWK_1
+		Early_APC = 1
+		IFV_1 = 1
+		
+		#DN-V Toro
+		Rec_tank_0 = 1
+		
+		night_vision_1 = 1
+		
+		command_control_equipment = 1
+		
+		#For templates
+		combat_eng_equipment = 1
+		Anti_tank_0 = 1
+		Heavy_Anti_tank_0 = 1
+		artillery_0 = 1
+		Anti_Air_0 = 1
+		APC_1 = 1
+		util_vehicle_0 = 1
+		
+		landing_craft = 1
+	}
+	
+	create_country_leader = {
+		name = "Luis Felipe Bravo Mena"
+		desc = "POLITICS_FRANKLIN_DELANO_ROOSEVELT_DESC"
+		picture = "luis_felipe_bravo.dds"
+		expire = "2065.1.1"
+		ideology = conservatism
+		traits = {
+		
+		}
+	}
+	
+	create_country_leader = {
+		name = "Vincente Fox"
+		desc = "POLITICS_FRANKLIN_DELANO_ROOSEVELT_DESC"
+		picture = ""
+		expire = "2065.1.1"
+		ideology = conservatism
+		traits = {
+		
+		}
+	}
+	
+	create_country_leader = {
+		name = "Amalia García"
+		desc = "POLITICS_FRANKLIN_DELANO_ROOSEVELT_DESC"
+		picture = "amalia_garcia.dds"
+		expire = "2065.1.1"
+		ideology = socialism
+		traits = {
+		
+		}
+	}
+	
+	create_country_leader = {
+		name = "Ernesto Zedillo"
+		desc = "POLITICS_FRANKLIN_DELANO_ROOSEVELT_DESC"
+		picture = "ernesto_zedillo.dds"
+		expire = "2065.1.1"
+		ideology = liberalism
+		traits = {
+		
+		}
+	}
+	
+	create_country_leader = {
+		name = "Pável Blanco Cabrera"
+		desc = "POLITICS_FRANKLIN_DELANO_ROOSEVELT_DESC"
+		picture = ""
+		expire = "2065.1.1"
+		ideology = Communist-State
+		traits = {
+		
+		}
+	}
+	
+	create_country_leader = {
+		name = "Andrés Manuel López Obrador"
+		desc = "POLITICS_FRANKLIN_DELANO_ROOSEVELT_DESC"
+		picture = "Andres_Manuel_Lopez_Obrador.dds"
+		expire = "2065.1.1"
+		ideology = neutral_Social
+		traits = {
+		
+		}
+	}
+	
+	create_country_leader = {
+		name = "Alberto Anaya"
+		desc = "POLITICS_FRANKLIN_DELANO_ROOSEVELT_DESC"
+		picture = "alberto_anaya.dds"
+		expire = "2065.1.1"
+		ideology = Neutral_Communism
+		traits = {
+		
+		}
+	}
+	create_country_leader = {
+		name = "Omar Weston"
+		desc = "POLITICS_FRANKLIN_DELANO_ROOSEVELT_DESC"
+		picture = "omar_weston.dds"
+		expire = "2065.1.1"
+		ideology = Neutral_Muslim_Brotherhood
+		traits = {
+		
+		}
+	}
+	
+	create_country_leader = {
+		name = "Jorge González Torres"
+		desc = "POLITICS_FRANKLIN_DELANO_ROOSEVELT_DESC"
+		picture = "jorge_gonzalez.dds"
+		expire = "2065.1.1"
+		ideology = Neutral_green
+		traits = {
+		
+		}
+	}
+	
+	create_country_leader = {
+		name = "Gerardo Clemente Vega"
+		desc = "POLITICS_FRANKLIN_DELANO_ROOSEVELT_DESC"
+		picture = "clemente_vega_garcia.dds"
+		expire = "2065.1.1"
+		ideology = Nat_Autocracy
+		traits = {
+		
+		}
+	}
+	
+	set_convoys = 80
+	
+	add_ideas = {
+		gdp_5
+		pop_050
+		christian
+		defence_01
+		edu_03
+		health_02
+		social_03
+		bureau_02
+		police_04
+		volunteer_women
+		industrial_conglomerates
+		civil_law
+		cartels_4
+		tax_cost_10
+	}
+	set_country_flag = enthusiastic_industrial_conglomerates
+	set_country_flag = positive_small_medium_business_owners
+	set_country_flag = positive_landowners
+
+
+	set_variable = { var = debt value = 418 }
+	set_variable = { var = treasury value = 52 }
+	set_variable = { var = tax_rate value = 10 }
+	#set_variable = { var = int_investments value = ##idk### }
+	
+	create_field_marshal = {
+		name = "Salvador Cienfuegos Zepeda"
+		picture = "generals/Portrait_Salvador_Zepeda.dds"
+		traits = { old_guard organisational_leader }
+		id = 38700
+		skill = 3
+		attack_skill = 3
+		defense_skill = 3
+		planning_skill = 3
+		logistics_skill = 3
+	}
+
+	create_field_marshal = {
+		name = "Carlos Antonio Rodríguez Munguía"
+		picture = "generals/Portrait_Carlos_Munguia.dds"
+		traits = { logistics_wizard }
+		id = 38701
+		skill = 3
+		attack_skill = 3
+		defense_skill = 3
+		planning_skill = 3
+		logistics_skill = 3
+	}
+
+	create_corps_commander = {
+		name = "Gilberto Hernández Andreu"
+		picture = "generals/Portrait_Gilberto_Andreu.dds"
+		traits = { bearer_of_artillery }
+		id = 38702
+		skill = 3
+		attack_skill = 3
+		defense_skill = 3
+		planning_skill = 3
+		logistics_skill = 3
+	}
+
+	create_corps_commander = {
+		name = "Daniel Velasco Ramirez"
+		picture = "generals/Portrait_Daniel_Ramirez.dds"
+		traits = { hill_fighter }
+		id = 38703
+		skill = 3
+		attack_skill = 3
+		defense_skill = 3
+		planning_skill = 3
+		logistics_skill = 3
+	}
+
+	create_corps_commander = {
+		name = "Alejandro Saavedra Hernández"
+		picture = "generals/Portrait_Alejandro_Hernandez.dds"
+		traits = { fortress_buster }
+		id = 38704
+		skill = 3
+		attack_skill = 3
+		defense_skill = 3
+		planning_skill = 3
+		logistics_skill = 3
+	}
+
+	create_corps_commander = {
+		name = "Roble Arturo Granados Gallardo"
+		picture = "generals/Portrait_Roble_Gallardo.dds"
+		traits = { trait_engineer }
+		id = 38705
+		skill = 3
+		attack_skill = 3
+		defense_skill = 3
+		planning_skill = 3
+		logistics_skill = 3
+	}
+
+	create_corps_commander = {
+		name = "Roberto Francisco Miranda Moreno"
+		picture = "generals/Portrait_Roberto_Miranda.dds"
+		traits = { urban_assault_specialist }
+		id = 38706
+		skill = 4
+		attack_skill = 4
+		defense_skill = 4
+		planning_skill = 4
+		logistics_skill = 4
+	}
+
+	create_corps_commander = {
+		name = "Adolfo Domínguez Martínez"
+		picture = "generals/Portrait_Adolfo_Martinez.dds"
+		traits = { panzer_leader }
+		id = 38707
+		skill = 2
+		attack_skill = 2
+		defense_skill = 2
+		planning_skill = 2
+		logistics_skill = 2
+	}
+
+	create_corps_commander = {
+		name = "Alfredo Flores Gómez"
+		picture = "generals/Portrait_Alfredo_Gomez.dds"
+		traits = { urban_assault_specialist }
+		id = 38708
+		skill = 1
+		attack_skill = 1
+		defense_skill = 1
+		planning_skill = 1
+		logistics_skill = 1
+	}
+
+	create_corps_commander = {
+		name = "Juan Manuel Diaz Organitos"
+		picture = "generals/Portrait_Juan_Manuel_Organitos.dds"
+		traits = { ranger }
+		id = 38709
+		skill = 2
+		attack_skill = 2
+		defense_skill = 2
+		planning_skill = 2
+		logistics_skill = 2
+	}
+
+	create_corps_commander = {
+		name = "Miguel Ángel Patiño Canchola"
+		picture = "generals/Portrait_Miguel_Canchola.dds"
+		traits = { ranger }
+		id = 38710
+		skill = 3
+		attack_skill = 3
+		defense_skill = 3
+		planning_skill = 3
+		logistics_skill = 3
+	}
+
+	create_corps_commander = {
+		name = "Rigoberto Garcia Cortés"
+		picture = "generals/Portrait_Rigoberto_Cortes.dds"
+		traits = { panzer_leader }
+		id = 38711
+		skill = 2
+		attack_skill = 2
+		defense_skill = 2
+		planning_skill = 2
+		logistics_skill = 2
+	}
+
+	create_navy_leader = {
+		name = "Francisco Soberón Sanz"
+		picture = "admirals/Portrait_Vidal_Sanz.dds"
+		traits = { old_guard_navy superior_tactician }
+		id = 38712
+	}
+
+	create_navy_leader = {
+		name = "Juan Carlos Vera Minjares"
+		picture = "admirals/Portrait_Juan_Carlos_Vera_Minjares.dds"
+		traits = { blockade_runner }
+		id = 38713
+	}
+
+}
+2000.7.2 = {
+create_country_leader = {
+		name = "Francisco Labastida"
+		desc = "POLITICS_FRANKLIN_DELANO_ROOSEVELT_DESC"
+		picture = ""
+		expire = "2065.1.1"
+		ideology = Conservative
+		traits = {
+		
+		}
+	}
+}
+2017.1.1 = {
+	capital = 835
+	oob = "MEX_2017"
+	set_convoys = 80
+
+	# Starting tech
+	set_technology = { 
+		legacy_doctrines = 1 
+		modern_blitzkrieg = 1 
+		forward_defense = 1 
+		encourage_nco_iniative = 1 
+		air_land_battle = 1
+		
+		#FX-08
+		infantry_weapons = 1
+		infantry_weapons1 = 1
+		infantry_weapons2 = 1
+		infantry_weapons3 = 1
+		infantry_weapons4 = 1
+		
+		#HWK_1
+		Early_APC = 1
+		IFV_1 = 1
+		
+		#DN-V Toro
+		Rec_tank_0 = 1
+		Rec_tank_1 = 1
+		Rec_tank_2 = 1
+		
+		night_vision_1 = 1
+		night_vision_2 = 1
+		night_vision_3 = 1
+		
+		command_control_equipment = 1
+		command_control_equipment1 = 1
+		command_control_equipment2 = 1
+		
+		#For templates
+		combat_eng_equipment = 1
+		Anti_tank_0 = 1
+		Heavy_Anti_tank_0 = 1
+		artillery_0 = 1
+		Anti_Air_0 = 1
+		APC_1 = 1
+		util_vehicle_0 = 1
+		
+		landing_craft = 1
+	}
+
+  	set_variable = { var = debt value = 623 }
+	set_variable = { var = treasury value = 178 }
+	set_variable = { var = int_investments value = 6 }
+	set_variable = { var = tax_rate value = 13 }
+	
+	set_variable = { var = size_modifier value = 4.92 } #25 CIC
+	initial_money_setup = yes
+
+
+	add_ideas = {
+		pop_050
+		unrestrained_corruption
+		gdp_5
+		christian
+		#Mass_Media
+		stagnation
+		defence_01
+		edu_03
+		health_02
+		social_03
+		bureau_02
+		police_04
+		partial_draft_army
+		volunteer_women
+		industrial_conglomerates
+		civil_law
+		cartels_4
+		tax_cost_13
+	}
+	#set_country_flag = gdp_5
+	set_country_flag = TPP_Signatory
+	set_country_flag = Major_Importer_US_Arms #Trends-in-international-arms-transfers-2016.pdf
+	set_country_flag = enthusiastic_industrial_conglomerates
+	set_country_flag = positive_small_medium_business_owners
+	set_country_flag = positive_landowners
+
+	#Nat focus
+	complete_national_focus = bonus_tech_slots
+	complete_national_focus = Generic_4K_GDPC_slot
+	complete_national_focus = Generic_4_IC_slot
+	complete_national_focus = Generic_8_IC_slot
+	complete_national_focus = Generic_16_IC_slot
+	complete_national_focus = Generic_30_IC_slot
+
+	set_politics = {
+
+		parties = {
+			democratic = { 
+				popularity = 47
+			}
+
+			fascism = {
+				popularity = 0
+			}
+			
+			communism = {
+				popularity = 38
+			}
+			
+			neutrality = { 
+				popularity = 15
+			}
+		}
+		
+		ruling_party = democratic
+		last_election = "2012.12.1"
+		election_frequency = 72
+		elections_allowed = yes
+	}
+	
+	set_variable = { conservatism_pop = 0.22 }
+	set_variable = { liberalism_pop = 0.18 }
+	set_variable = { socialism_pop = 0.07 }
+	set_variable = { anarchist_communism_pop = 0.38 }
+	set_variable = { neutral_Social_pop = 0.05 }
+	set_variable = { Neutral_Communism_pop = 0.04 }
+	set_variable = { Neutral_Green_pop = 0.06 }
+	
+	recalculate_party = yes
+	
+	create_country_leader = {
+		name = "Eruviel Avila Villegas"
+		desc = "POLITICS_ERUVIEL_AVILA_DESC"
+		picture = "Eruviel_Avila.dds"
+		expire = "2065.1.1"
+		ideology = conservatism
+		traits = { }
+	}
+
+	create_country_leader = {
+		name = "Andrés Manuel López Obrador"
+		desc = "POLITICS_ANDRES_MANUEL_DESC"
+		picture = "Andres_Manuel_Lopez_Obrador.dds"
+		expire = "2065.1.1"
+		ideology = Conservative
+		traits = {
+			#
+		}
+	}
+
+	create_country_leader = {
+		name = "Miguel Angel Mancera"
+		desc = "POLITICS_MIGUEL_ANGEL_DESC"
+		picture = "Migyuel_Angel_Mancera.dds"
+		expire = "2065.1.1"
+		ideology = Kingdom 
+		traits = {
+			#
+		}
+	}
+
+	create_country_leader = {
+		name = "Maximiliano von Götzen-Iturbide"
+		desc = "POLITICS_MAXIMILIAN_DESC"
+		picture = "Maximiliano_von_gotzen.dds"
+		expire = "2065.1.1"
+		ideology = Nat_Fascism
+		traits = {
+			#pp_gain10
+			#warmonger
+			#Enemy_of_America
+		}
+	}
+
+	create_country_leader = {
+		name = "Ricardo Anaya Cortés"
+		desc = "POLITICS_RICARDO_ANAYA_DESC"
+		picture = "Ricardo_Anaya.dds"
+		expire = "2065.1.1"
+		ideology = Neutral_conservatism
+		traits = {
+			#
+		}
+	}
+	
+	#Current President of Mexico (2012-2018)
+	create_country_leader = {
+		name = "Enrique Peña Nieto"
+		desc = "POLITICS_Enrique_Pena_Nieto_DESC"
+		picture = "Enrique_Pena_Nieto.dds"
+		expire = "2065.1.1"
+		ideology = liberalism
+		traits = { }
+	}
+
+	
+
+}
