@@ -8,6 +8,7 @@ state={
 
 	history={
 		owner = NAX
+		add_core_of = RAJ
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 1

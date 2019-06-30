@@ -1,0 +1,22 @@
+state={
+	id=812
+	name="STATE_812"
+	state_category=rural
+	manpower=500000
+	history={
+		
+		owner = ALB
+		buildings = {
+			infrastructure = 4
+
+		}
+		add_core_of = YUG
+		add_core_of = SER
+
+	}
+	
+	provinces={
+		833 867 
+	}
+	buildings_max_level_factor=1.000
+}
