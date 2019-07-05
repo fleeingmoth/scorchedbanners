@@ -3,4 +3,4 @@ path="mod/scorchedbanners/"
 tags={
 	"Alternative History"
 }
-supported_version="1.7.0"
+supported_version="1.7.1"
