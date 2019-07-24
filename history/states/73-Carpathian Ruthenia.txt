@@ -14,15 +14,8 @@ state={
 			infrastructure = 5
 		}
 		add_core_of = SOV
-		add_claim_by = HUN
+		add_core_of = UKR
 
-		1939.3.14 = {
-			owner = HUN
-			controller = HUN
-			remove_claim_by = HUN
-			add_core_of = HUN
-			add_core_of = SLO
-		}
 	}
 
 	provinces={

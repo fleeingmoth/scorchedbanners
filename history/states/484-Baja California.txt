@@ -17,6 +17,7 @@ state = {
 			}
 		}
 		add_core_of = BAJ
+		add_core_of = MEX
 
 		victory_points = {
 			12461 10
