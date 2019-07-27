@@ -1,15 +1,14 @@
 
-state={
-	id=618
-	name="STATE_618" # Dzungaria
+state = {
+	id = 618
+	name = "STATE_618" # Dzungaria
 	manpower = 670800
 
 	state_category = pastoral
 
-	history={
+	history = {
 		owner = PRC
-		add_core_of = PRC
-		add_core_of = PRC
+		add_core_of = SIK
 		add_core_of = PRC
 		buildings = {
 			infrastructure = 3
@@ -18,7 +17,7 @@ state={
 
 	}
 
-	provinces={
-		1708 1783 1844 4714 4788 4823 4849 7693 7737 7866 10674 10691 12590 12737 
+	provinces = {
+		1708 1783 1844 4823 1703 7850 7693 7866 12526 12601 12590 12737 
 	}
 }

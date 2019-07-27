@@ -1,12 +1,12 @@
 
-state={
-	id=342
-	name="STATE_342"
-	resources={
-		chromium=35.000
+state = {
+	id = 342
+	name = "STATE_342"
+	resources = {
+		chromium = 35.000
 	}
 
-	history={
+	history = {
 		owner = GRE
 		victory_points = {
 			1005 1 
@@ -21,13 +21,14 @@ state={
 
 		}
 		add_core_of = GRE
+		add_core_of = TUR
 
 	}
 
-	provinces={
+	provinces = {
 		1119 9941 10122 11917 12096 
 	}
-	manpower=362689
-	buildings_max_level_factor=1.000
-	state_category=rural
+	manpower = 362689
+	buildings_max_level_factor = 1.000
+	state_category = rural
 }
