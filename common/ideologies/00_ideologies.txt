@@ -48,7 +48,6 @@ ideologies = {
 		}
 		ai_neutral = yes 
 	}
-}
 marxism_leninism = {
 	
 		types = {
@@ -100,7 +99,6 @@ marxism_leninism = {
 		}
 		ai_communism = yes 
 	}
-}
 revisionist_socialism = {
 	
 		types = {
@@ -152,7 +150,6 @@ revisionist_socialism = {
 		}
 		ai_communism = yes 
 	}
-}
 libertarian_socialism = {
 	
 		types = {
@@ -204,7 +201,6 @@ libertarian_socialism = {
 		}
 		ai_communism = yes 
 	}
-}
 social_democracy = {
 	
 		types = {
@@ -256,7 +252,6 @@ social_democracy = {
 		}
 		ai_democratic = yes 
 	}
-}
 liberal_democracy = {
 	
 		types = {
@@ -308,7 +303,6 @@ liberal_democracy = {
 		}
 		ai_democratic = yes 
 	}
-}
 conservative_democracy = {
 	
 		types = {
@@ -360,7 +354,6 @@ conservative_democracy = {
 		}
 		ai_democratic = yes 
 	}
-}
 classical_authoritarianism = {
 	
 		types = {
@@ -412,7 +405,6 @@ classical_authoritarianism = {
 		}
 		ai_fascism = yes 
 	}
-}
 despotism = {
 	
 		types = {
@@ -464,7 +456,6 @@ despotism = {
 		}
 		ai_fascism = yes 
 	}
-}
 ultranationalism = {
 	
 		types = {
