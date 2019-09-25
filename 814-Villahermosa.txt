@@ -1,0 +1,23 @@
+state={
+	id=814	name="STATE_814"
+		state_category=rural
+	manpower=500000
+	history={
+		
+		owner = MEX
+		buildings = {
+			infrastructure = 4
+
+		}
+
+ victory_points = {
+			2021  3 
+		}		add_core_of = MEX
+			
+
+	}
+	provinces={
+	 12867 2021 
+	}
+	buildings_max_level_factor=1.000
+}
