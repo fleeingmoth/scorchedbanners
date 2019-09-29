@@ -1,25 +1,20 @@
 state={
-	id=807
-	name="STATE_807"
-
+	id=815
+	name="STATE_815"
+	state_category=rural
 	history={
-		victory_points = {
-			6983 3 
-		}
 		owner = YUG
 		buildings = {
 			infrastructure = 4
 
 		}
 		add_core_of = BOS
-		add_core_of = SER
+		add_core_of = BOS
 
 	}
-
 	provinces={
-		6619 6983 9588 9591 11572 
+		11574 
 	}
-	manpower=500000
+	manpower=200000
 	buildings_max_level_factor=1.000
-	state_category=rural
 }

@@ -6,19 +6,12 @@ state={
 	history={
 		owner = YUG
 		victory_points = {
-			3924 3 
-		}
-		victory_points = {
 			11564 1 
 		}
 		buildings = {
 			infrastructure = 5
 			dockyard = 1
 			industrial_complex = 3
-			3924 = {
-				naval_base = 3
-
-			}
 			6889 = {
 				naval_base = 1
 
@@ -31,7 +24,7 @@ state={
 	}
 
 	provinces={
-		591 3868 3924 6889 11564 11735 11816 11901 
+		591 11564 11735 11901 
 	}
 	manpower=1431700
 	buildings_max_level_factor=1.000
