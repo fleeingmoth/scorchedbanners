@@ -1,0 +1,58 @@
+
+state={
+	id=239
+	name="STATE_239"
+
+	history={
+		owner = SHB
+		victory_points = {
+			3202 5 
+		}
+		victory_points = {
+			1964 1 
+		}
+		victory_points = {
+			4909 1 
+		}
+		victory_points = {
+			11090 5
+		}
+		victory_points = {
+			11088 1 
+		}
+		buildings = {
+			infrastructure = 0
+			industrial_complex = 1
+			arms_factory = 1
+			1966 = {
+				naval_base = 4
+
+			}
+			11090 = {
+				naval_base = 2
+
+			}
+
+		}
+		add_core_of = SOM
+		add_core_of = SHB
+		
+		SOM = {
+			set_province_controller = 12840
+			set_province_controller = 1964
+			set_province_controller = 10818
+			set_province_controller = 4909
+			set_province_controller = 765
+			#set_province_controller = 3202
+			set_province_controller = 1966
+		}
+
+	}
+
+	provinces={
+		1964 1966 4909 10818 10891 12840 765 3202 11088 11090 11092 
+	}
+	manpower=2824998
+	buildings_max_level_factor=1.000
+	state_category=state_04
+}

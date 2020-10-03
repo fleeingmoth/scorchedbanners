@@ -1,0 +1,34 @@
+
+state={
+	id=184
+	name="STATE_184"
+
+	history={
+		owner = FSA
+		victory_points = {
+			1074 3 
+		}
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 1
+
+		}
+		add_core_of = ISI
+		add_core_of = NUS
+		add_core_of = SYR
+		add_core_of = FSA
+		add_core_of = DRU
+		SYR = {
+			set_province_controller = 11095
+		}
+
+	}
+
+	provinces={
+		1074 11093 11095 11102 
+	}
+	manpower=540000
+	buildings_max_level_factor=1.000
+	state_category=state_01
+}

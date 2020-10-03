@@ -4,13 +4,13 @@
  GER_anarchy:0 "Germany"
  GER_anarchy_DEF:0 "the German zone"
  
- GER_marxism_leninism:0 "GDR"
+ GER_marxism_leninism:0 "German Democratic Republic"
  GER_marxism_leninism_DEF:0 "the German Democratic Republic"
  
- GER_revisionist_socialism:0 "GDR"
+ GER_revisionist_socialism:0 "German Democratic Republic"
  GER_revisionist_socialism_DEF:0 "the German Democratic Republic"
  
- GER_libertarian_socialism:0 "GDR"
+ GER_libertarian_socialism:0 "German Democratic Republic"
  GER_libertarian_socialism_DEF:0 "the German Democratic Republic"
  
  GER_social_democracy:0 "German Republic"
@@ -35,22 +35,22 @@
  WGR_anarchy:0 "West Germany"
  WGR_anarchy_DEF:0 "the West German zone"
  
- WGR_marxism_leninism:0 "PR Germany"
+ WGR_marxism_leninism:0 "People's Republic of Germany"
  WGR_marxism_leninism_DEF:0 "the People's Republic of Germany"
  
- WGR_revisionist_socialism:0 "German SR"
+ WGR_revisionist_socialism:0 "German Socialist Republic"
  WGR_revisionist_socialism_DEF:0 "the German Socialist Republic"
  
- WGR_libertarian_socialism:0 "German SR"
+ WGR_libertarian_socialism:0 "German Socialist Republic"
  WGR_libertarian_socialism_DEF:0 "the German Socialist Republic"
  
- WGR_social_democracy:0 "FRG"
+ WGR_social_democracy:0 "Federal Republic of Germany"
  WGR_social_democracy_DEF:0 "the Federal Republic of Germany"
  
- WGR_liberal_democracy:0 "FRG"
+ WGR_liberal_democracy:0 "Federal Republic of Germany"
  WGR_liberal_democracy_DEF:0 "the Federal Republic of Germany"
  
- WGR_conservative_democracy:0 "FRG"
+ WGR_conservative_democracy:0 "Federal Republic of Germany"
  WGR_conservative_democracy_desc:0 "the Federal Republic of Germany"
  
  WGR_classical_authoritarianism:0 "State of Germany"
@@ -66,13 +66,13 @@
  DDR_anarchy:0 "East Germany"
  DDR_anarchy_DEF:0 "the East German zone"
  
- DDR_marxism_leninism:0 "GDR"
+ DDR_marxism_leninism:0 "German Democratic Republic"
  DDR_marxism_leninism_DEF:0 "the German Democratic Republic"
  
- DDR_revisionist_socialism:0 "GDR"
+ DDR_revisionist_socialism:0 "German Democratic Republic"
  DDR_revisionist_socialism_DEF:0 "the German Democratic Republic"
  
- DDR_libertarian_socialism:0 "GDR"
+ DDR_libertarian_socialism:0 "German Democratic Republic"
  DDR_libertarian_socialism_DEF:0 "the German Democratic Republic"
  
  DDR_social_democracy:0 "Republic of East Germany"
@@ -87,42 +87,13 @@
  DDR_classical_authoritarianism:0 "German Republic"
  DDR_classical_authoritarianism_DEF:0 "the German Republic"
  
- DDR_despotism:0 "GDR"
+ DDR_despotism:0 "German Democratic Republic"
  DDR_despotism_DEF:0 "the German Democratic Republic"
  
  DDR_ultranationalism:0 "German Social Democratic State"
  DDR_ultranationalism_DEF:0 "the German Social Democratic State"
  
  #POL
- POL_anarchy:0 "Poland"
- POL_anarchy_DEF:0 "the Polish zone"
- 
- POL_marxism_leninism:0 "Polish PR"
- POL_marxism_leninism_DEF:0 "the Polish People's Republic"
- 
- POL_revisionist_socialism:0 "Polish PR"
- POL_revisionist_socialism_DEF:0 "the Polish People's Republic"
- 
- POL_libertarian_socialism:0 "PR Poland"
- POL_libertarian_socialism_DEF:0 "the People's Republic of Poland"
- 
- POL_social_democracy:0 "PR Poland"
- POL_social_democracy_DEF:0 "the People's Republic of Poland"
- 
- POL_liberal_democracy:0 "Republic of Poland "
- POL_liberal_democracy_DEF:0 "the Republic of Poland"
- 
- POL_conservative_democracy:0 "Republic of Poland"
- POL_conservative_democracy:0 "the Republic of Poland"
- 
- POL_classical_authoritarianism:0 "Third Polish Republic"
- POL_classical_authoritarianism_DEF:0 "the Third Polish Republic"
- 
- POL_despotism:0 "Polish PR"
- POL_despotism_DEF:0 "the Polish People's Republic"
- 
- POL_ultranationalism:0 "Polish People's State"
- POL_ultranationalism_DEF:0 "the Polish People's State"
  
  #DEN
  

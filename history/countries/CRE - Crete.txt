@@ -1,0 +1,11 @@
+﻿capital = 144
+
+set_politics = {
+	ruling_party = anarchy
+	last_election = "2009.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	anarchy = 100
+}

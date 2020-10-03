@@ -1,0 +1,36 @@
+
+state={
+	id=294
+	name="STATE_294"
+	
+	resources={
+		tungsten=5
+	}
+
+	history={
+		owner = ZAM
+		victory_points = {
+			9650 1 
+		}
+		victory_points = {
+			9739 1 
+		}
+		victory_points = {
+			11048 1 
+		}
+		buildings = {
+			infrastructure = 1
+			arms_factory = 1
+
+		}
+		add_core_of = ZAM
+
+	}
+
+	provinces={
+		1846 5221 10594 10930 9650 9707 9739 11048 
+	}
+	manpower=5640391
+	buildings_max_level_factor=1.000
+	state_category=state_06
+}
