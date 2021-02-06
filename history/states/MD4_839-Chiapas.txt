@@ -1,0 +1,36 @@
+
+state={
+	id=839
+	name="STATE_839"
+	
+	resources={
+		oil=4
+	}
+
+	history={
+		owner = ZAP
+		victory_points = {
+			1900 5 
+		}
+		
+		victory_points = {
+			12753 3 
+		}
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+            industrial_complex = 1
+
+		}
+		add_core_of = MEX
+                add_core_of = ZAP
+
+	}
+
+	provinces={
+		1900 12753  11596 11615 
+	}
+	manpower=8444116
+	buildings_max_level_factor=1.000
+	state_category=state_07
+}

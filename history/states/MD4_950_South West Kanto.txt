@@ -1,0 +1,42 @@
+state={
+	id=950
+	name="STATE_950"
+	resources={
+		steel=11
+	}
+
+	history={
+		owner = JAP
+		victory_points = {
+			7157 5 
+		}
+		victory_points = {
+			9998 5 
+		}
+                victory_points = {
+			13264 20
+		}
+		
+		buildings = {
+			infrastructure = 8
+			arms_factory = 2
+			dockyard = 3
+			air_base = 10
+			9998 = {
+				naval_base = 10
+
+			}
+
+		}
+		add_core_of = JAP
+                add_core_of = NJP
+
+	}
+
+	provinces={
+		 7157 9998 13264
+	}
+	manpower=36961520
+	buildings_max_level_factor=1.000
+	state_category=state_14
+}

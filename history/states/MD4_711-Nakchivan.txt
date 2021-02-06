@@ -1,0 +1,26 @@
+state= {
+	id=711
+	name="STATE_711"
+	manpower = 478085
+	state_category = state_01
+
+	history={
+		owner = SOV
+
+		victory_points = { 6997 3 } #Nakhchivan
+		
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			air_base = 1
+
+		}
+		add_core_of = ARM
+		add_core_of = AZE
+                add_core_of = SOV
+	}
+
+	provinces={
+		  6997
+		}
+}

@@ -1,0 +1,33 @@
+
+state={
+	id=109
+	name="STATE_109"
+
+	history={
+		owner = SOV
+		victory_points = {
+			6376 1 
+		}
+		victory_points = {
+			3288 1 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			3288 = {
+				naval_base = 2
+
+			}
+
+		}
+		add_core_of = LIT
+                add_core_of = SOV
+	}
+
+	provinces={
+		3288 3337 6314 6360 6376 9483 9499 13258 
+	}
+	manpower=1082517
+	buildings_max_level_factor=1.000
+	state_category=state_02
+}

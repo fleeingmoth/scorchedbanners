@@ -1,0 +1,28 @@
+
+state={
+	id=313
+	name="STATE_313"
+
+	history={
+		owner = DRC
+		victory_points = {
+			6386 4 
+		}
+		victory_points = {
+			7219 1 
+		}
+		buildings = {
+			infrastructure = 0
+
+		}
+		add_core_of = DRC
+
+	}
+
+	provinces={
+		988 7219 10071 6254 6298 6316 6386 6390 6391 6454 
+	}
+	manpower=5994254
+	buildings_max_level_factor=1.000
+	state_category=state_06
+}

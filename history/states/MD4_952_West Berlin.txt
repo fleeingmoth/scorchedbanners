@@ -1,0 +1,28 @@
+state={
+	id=952
+	name="STATE_952"
+
+	history={
+		owner = FRG
+		victory_points = {
+			13265 10 
+		}
+		
+		buildings = {
+			infrastructure = 6
+			arms_factory = 2
+			industrial_complex = 6
+			air_base = 6
+
+		}
+		add_core_of = GDR
+                add_core_of = FRG
+	}
+
+	provinces={
+		13265 
+	}
+	manpower=8335315
+	buildings_max_level_factor=1.000
+	state_category=state_07
+}

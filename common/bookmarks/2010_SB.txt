@@ -1,0 +1,27 @@
+bookmarks = {
+	bookmark = {
+		name = "2010_START_DATE_name"
+		desc = "2010_START_DATE_desc"
+		date = 2010.1.1.12
+		picture = "GFX_select_date_2010"
+		default_country = "FRA"
+		default = yes
+		
+		"FRA"={
+			history = ""
+			ideology = anarchy
+			ideas = {}
+			focuses = {}
+		}	
+
+		"---"={
+			history = "OTHER_GATHERING_STORM_DESC"
+		}
+
+
+		effect = {
+			randomize_weather = 22345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}

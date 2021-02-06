@@ -1,0 +1,28 @@
+state={
+	id=951
+	name="STATE_951"
+
+	history={
+		owner = SAF
+		victory_points = {
+			10978 1 
+		}
+		buildings = {
+			infrastructure = 2
+			10978 = {
+				naval_base = 2
+
+			}
+
+		}
+		add_core_of = NAM
+                add_core_of = SAF
+	}
+
+	provinces={
+		10978  
+	}
+	manpower=237665
+	buildings_max_level_factor=1.000
+	state_category=state_00
+}

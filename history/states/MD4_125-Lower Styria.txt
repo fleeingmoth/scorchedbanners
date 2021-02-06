@@ -1,0 +1,30 @@
+
+state={
+	id=125
+	name="STATE_125"
+	manpower = 883570
+	
+	state_category = state_02
+	
+	resources={
+		aluminium=4
+	}
+	
+	history =
+	{
+		owner = YUG
+		victory_points = { 665 5 } #Maribor
+		victory_points = { 3654 1 } #Celje
+		
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+		}
+		add_core_of = SLV
+                add_core_of = YUG
+	}
+	provinces={
+		 9596 3654 596 665 6672
+		}
+	}
+

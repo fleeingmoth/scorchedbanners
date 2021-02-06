@@ -1,0 +1,29 @@
+
+state={
+	id=73
+	name="STATE_73"
+
+	history={
+		owner = SWI
+		victory_points = {
+			9600 3 
+		}
+		victory_points = {
+			3660 1 
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 1
+
+		}
+		add_core_of = SWI
+
+	}
+
+	provinces={
+		658 3660 9600 
+	}
+	manpower=565236
+	buildings_max_level_factor=1.000
+	state_category=state_01
+}

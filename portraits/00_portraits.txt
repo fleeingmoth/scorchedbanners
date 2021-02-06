@@ -1,0 +1,473 @@
+############################################
+## Default
+############################################
+default = {
+	male = {
+		"gfx/leaders/leader_unknown.dds"
+	}
+	female = {
+		"gfx/leaders/leader_unknown.dds"
+	}
+}
+
+continent = {
+	name = europe
+	army = {
+		male = {
+			"gfx/leaders/leader_unknown.dds"
+		}
+	}
+
+	navy = {
+		male = {
+			"gfx/leaders/leader_unknown.dds"
+		}
+	}
+
+	political = {
+		anarchy = {
+			male = {
+				"gfx/leaders/leader_unknown.dds"
+			}
+		}
+		marxism_leninism = {
+			male = {
+				"gfx/leaders/leader_unknown.dds"
+			}
+		}
+		revisionist_socialism = {
+			male = {
+				"gfx/leaders/leader_unknown.dds"
+			}
+		}
+		libertarian_socialism = {
+			male = {
+				"gfx/leaders/leader_unknown.dds"
+			}
+		}
+		social_democracy = {
+			male = {
+				"gfx/leaders/leader_unknown.dds"
+			}
+		}
+		liberal_democracy = {
+			male = {
+				"gfx/leaders/leader_unknown.dds"
+			}
+		}
+		conservative_democracy = {
+			male = {
+				"gfx/leaders/leader_unknown.dds"
+			}
+		}
+		classical_authoritarianism = {
+			male = {
+				"gfx/leaders/leader_unknown.dds"
+			}
+		}
+		despotism = {
+			male = {
+				"gfx/leaders/leader_unknown.dds"
+			}
+		}
+		ultranationalism = {
+			male = {
+				"gfx/leaders/leader_unknown.dds"
+			}
+		}
+		
+	}
+
+}
+
+continent = {
+	name = north_america
+	army = {
+		male = {
+			"gfx/leaders/leader_unknown.dds"
+		}
+	}
+
+	navy = {
+		male = {
+			"gfx/leaders/leader_unknown.dds"
+		}
+	}
+
+	political = {
+		far_left = {
+			male = {
+				"gfx/leaders/leader_unknown.dds"
+			}
+		}
+		left = {
+			male = {
+				"gfx/leaders/leader_unknown.dds"
+			}
+		}
+		center_left = {
+			male = {
+				"gfx/leaders/leader_unknown.dds"
+			}
+		}
+		center_right = {
+			male = {
+				"gfx/leaders/leader_unknown.dds"
+			}
+		}
+		right = {
+			male = {
+				"gfx/leaders/leader_unknown.dds"
+			}
+		}
+		far_right = {
+			male = {
+				"gfx/leaders/leader_unknown.dds"
+			}
+		}
+	}
+
+}
+
+continent = {
+	name = south_america
+	army = {
+		male = {
+			"gfx/leaders/leader_unknown.dds"
+		}
+	}
+
+	navy = {
+		male = {
+			"gfx/leaders/leader_unknown.dds"
+		}
+	}
+
+	political = {
+		anarchy = {
+			male = {
+				"gfx/leaders/leader_unknown.dds"
+			}
+		}
+		marxism_leninism = {
+			male = {
+				"gfx/leaders/leader_unknown.dds"
+			}
+		}
+		revisionist_socialism = {
+			male = {
+				"gfx/leaders/leader_unknown.dds"
+			}
+		}
+		libertarian_socialism = {
+			male = {
+				"gfx/leaders/leader_unknown.dds"
+			}
+		}
+		social_democracy = {
+			male = {
+				"gfx/leaders/leader_unknown.dds"
+			}
+		}
+		liberal_democracy = {
+			male = {
+				"gfx/leaders/leader_unknown.dds"
+			}
+		}
+		conservative_democracy = {
+			male = {
+				"gfx/leaders/leader_unknown.dds"
+			}
+		}
+		classical_authoritarianism = {
+			male = {
+				"gfx/leaders/leader_unknown.dds"
+			}
+		}
+		despotism = {
+			male = {
+				"gfx/leaders/leader_unknown.dds"
+			}
+		}
+		ultranationalism = {
+			male = {
+				"gfx/leaders/leader_unknown.dds"
+			}
+		}
+	}
+
+}
+
+continent = {
+	name = australia
+	army = {
+		male = {
+			"gfx/leaders/leader_unknown.dds"
+		}
+	}
+
+	navy = {
+		male = {
+			"gfx/leaders/leader_unknown.dds"
+		}
+	}
+
+	political = {
+		anarchy = {
+			male = {
+				"gfx/leaders/leader_unknown.dds"
+			}
+		}
+		marxism_leninism = {
+			male = {
+				"gfx/leaders/leader_unknown.dds"
+			}
+		}
+		revisionist_socialism = {
+			male = {
+				"gfx/leaders/leader_unknown.dds"
+			}
+		}
+		libertarian_socialism = {
+			male = {
+				"gfx/leaders/leader_unknown.dds"
+			}
+		}
+		social_democracy = {
+			male = {
+				"gfx/leaders/leader_unknown.dds"
+			}
+		}
+		liberal_democracy = {
+			male = {
+				"gfx/leaders/leader_unknown.dds"
+			}
+		}
+		conservative_democracy = {
+			male = {
+				"gfx/leaders/leader_unknown.dds"
+			}
+		}
+		classical_authoritarianism = {
+			male = {
+				"gfx/leaders/leader_unknown.dds"
+			}
+		}
+		despotism = {
+			male = {
+				"gfx/leaders/leader_unknown.dds"
+			}
+		}
+		ultranationalism = {
+			male = {
+				"gfx/leaders/leader_unknown.dds"
+			}
+		}
+
+}
+
+continent = {
+	name = africa
+	army = {
+		male = {
+			"gfx/leaders/leader_unknown.dds"
+		}
+	}
+
+	navy = {
+		male = {
+			"gfx/leaders/leader_unknown.dds"
+		}
+	}
+
+	political = {
+		anarchy = {
+			male = {
+				"gfx/leaders/leader_unknown.dds"
+			}
+		}
+		marxism_leninism = {
+			male = {
+				"gfx/leaders/leader_unknown.dds"
+			}
+		}
+		revisionist_socialism = {
+			male = {
+				"gfx/leaders/leader_unknown.dds"
+			}
+		}
+		libertarian_socialism = {
+			male = {
+				"gfx/leaders/leader_unknown.dds"
+			}
+		}
+		social_democracy = {
+			male = {
+				"gfx/leaders/leader_unknown.dds"
+			}
+		}
+		liberal_democracy = {
+			male = {
+				"gfx/leaders/leader_unknown.dds"
+			}
+		}
+		conservative_democracy = {
+			male = {
+				"gfx/leaders/leader_unknown.dds"
+			}
+		}
+		classical_authoritarianism = {
+			male = {
+				"gfx/leaders/leader_unknown.dds"
+			}
+		}
+		despotism = {
+			male = {
+				"gfx/leaders/leader_unknown.dds"
+			}
+		}
+		ultranationalism = {
+			male = {
+				"gfx/leaders/leader_unknown.dds"
+			}
+		}
+	}
+}
+
+continent = {
+	name = asia
+	army = {
+		male = {
+			"gfx/leaders/leader_unknown.dds"
+		}
+	}
+
+	navy = {
+		male = {
+			"gfx/leaders/leader_unknown.dds"
+		}
+	}
+
+	political = {
+		anarchy = {
+			male = {
+				"gfx/leaders/leader_unknown.dds"
+			}
+		}
+		marxism_leninism = {
+			male = {
+				"gfx/leaders/leader_unknown.dds"
+			}
+		}
+		revisionist_socialism = {
+			male = {
+				"gfx/leaders/leader_unknown.dds"
+			}
+		}
+		libertarian_socialism = {
+			male = {
+				"gfx/leaders/leader_unknown.dds"
+			}
+		}
+		social_democracy = {
+			male = {
+				"gfx/leaders/leader_unknown.dds"
+			}
+		}
+		liberal_democracy = {
+			male = {
+				"gfx/leaders/leader_unknown.dds"
+			}
+		}
+		conservative_democracy = {
+			male = {
+				"gfx/leaders/leader_unknown.dds"
+			}
+		}
+		classical_authoritarianism = {
+			male = {
+				"gfx/leaders/leader_unknown.dds"
+			}
+		}
+		despotism = {
+			male = {
+				"gfx/leaders/leader_unknown.dds"
+			}
+		}
+		ultranationalism = {
+			male = {
+				"gfx/leaders/leader_unknown.dds"
+			}
+		}
+	}
+
+}
+
+continent = {
+	name = middle_east
+	army = {
+		male = {
+			"gfx/leaders/leader_unknown.dds"
+		}
+	}
+
+	navy = {
+		male = {
+			"gfx/leaders/leader_unknown.dds"
+		}
+	}
+
+	political = {
+		anarchy = {
+			male = {
+				"gfx/leaders/leader_unknown.dds"
+			}
+		}
+		marxism_leninism = {
+			male = {
+				"gfx/leaders/leader_unknown.dds"
+			}
+		}
+		revisionist_socialism = {
+			male = {
+				"gfx/leaders/leader_unknown.dds"
+			}
+		}
+		libertarian_socialism = {
+			male = {
+				"gfx/leaders/leader_unknown.dds"
+			}
+		}
+		social_democracy = {
+			male = {
+				"gfx/leaders/leader_unknown.dds"
+			}
+		}
+		liberal_democracy = {
+			male = {
+				"gfx/leaders/leader_unknown.dds"
+			}
+		}
+		conservative_democracy = {
+			male = {
+				"gfx/leaders/leader_unknown.dds"
+			}
+		}
+		classical_authoritarianism = {
+			male = {
+				"gfx/leaders/leader_unknown.dds"
+			}
+		}
+		despotism = {
+			male = {
+				"gfx/leaders/leader_unknown.dds"
+			}
+		}
+		ultranationalism = {
+			male = {
+				"gfx/leaders/leader_unknown.dds"
+			}
+		}
+	}
+}
+

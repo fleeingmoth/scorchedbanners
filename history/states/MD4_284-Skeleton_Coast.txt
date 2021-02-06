@@ -1,0 +1,22 @@
+
+state={
+	id=284
+	name="STATE_284"
+
+	history={
+		owner = NAM
+		
+		
+
+		
+		add_core_of = NAM
+
+	}
+
+	provinces={
+		 12921  11512 11551 
+	}
+	manpower=237665
+	buildings_max_level_factor=1.000
+	state_category=state_00
+}
