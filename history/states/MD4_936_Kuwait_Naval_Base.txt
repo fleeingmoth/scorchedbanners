@@ -5,7 +5,8 @@ state= {
 	state_category = state_00
 	
 	resources={
-       
+       oil = 1 
+	   #placeholder
 	}
 
 	history={
@@ -23,4 +24,5 @@ state= {
 
 	provinces={
 		11178
+	}
 }
