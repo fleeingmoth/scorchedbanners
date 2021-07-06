@@ -12,7 +12,7 @@ bookmarks = {
 			ideology = anarchy
 			ideas = {}
 			focuses = {}
-		}	
+		}
 
 		"---"={
 			history = "OTHER_GATHERING_STORM_DESC"
