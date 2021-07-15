@@ -5,6 +5,11 @@ tags={
 }
 supported_version="1.7.1"
 replace_path = "history/states"
+replace_path = "history/countries"
 replace_path = "map"
 replace_path = "map/strategicregions"
 replace_path = "map/supplyareas"
+replace_path = "gfx/loadingscreens"
+replace_path = "common/countries"
+replace_path = "common/country_tags"
+replace_path = "common/bookmarks"
