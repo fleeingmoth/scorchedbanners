@@ -12,7 +12,7 @@ state=
 
 	history=
 	{
-		owner = GRE
+		owner = CRE
 		victory_points = { 11984 1 } #Nicosia
 		buildings = {
 			infrastructure = 6
@@ -25,6 +25,7 @@ state=
 		}
        add_core_of = CYP
        add_core_of = GRE
+	   add_core_of = CRE
 	}
 	provinces= { 11984 }
 }

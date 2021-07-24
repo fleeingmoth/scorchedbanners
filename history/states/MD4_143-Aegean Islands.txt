@@ -8,7 +8,7 @@ state={
 	}
 
 	history={
-		owner = GRE
+		owner = CRE
 		victory_points = {
 			10007 1 
 		}
@@ -45,7 +45,7 @@ state={
 
 		}
 		add_core_of = GRE
-
+		add_core_of = CRE
 	}
 
 	provinces={
