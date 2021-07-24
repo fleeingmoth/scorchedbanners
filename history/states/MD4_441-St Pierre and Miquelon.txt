@@ -6,7 +6,6 @@ state= {
 
 	history={
 		owner = FRA
-		victory_points = { 11023 1 } #Saint-Pierre
 		
 		buildings = {
 			infrastructure = 5

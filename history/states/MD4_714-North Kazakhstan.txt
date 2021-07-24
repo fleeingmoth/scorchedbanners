@@ -16,15 +16,6 @@ state={
 			7741 5 
 		}
 		victory_points = {
-			7429 3 
-		}
-		victory_points = {
-			1418 3 
-		}
-		victory_points = {
-			7383 1 
-		}
-		victory_points = {
 			7233 1 
 		}
 		victory_points = {

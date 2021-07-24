@@ -27,9 +27,6 @@ state={
 			6181 1 
 		}
 		victory_points = {
-			9201 3 
-		}
-		victory_points = {
 			11031 1 
 		}
 		victory_points = {
@@ -43,12 +40,6 @@ state={
 		}
 		victory_points = {
 			3033 1 
-		}
-		victory_points = {
-			3187 1 
-		}
-		victory_points = {
-			11092 1 
 		}
 		victory_points = {
 			94 1 

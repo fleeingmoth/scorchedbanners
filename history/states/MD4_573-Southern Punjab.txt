@@ -5,9 +5,6 @@ state={
 
 	history={
 		owner = PAK
-		victory_points = {
-			6312 5 
-		}
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 2
