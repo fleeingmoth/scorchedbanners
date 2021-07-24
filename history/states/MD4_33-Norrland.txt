@@ -9,12 +9,6 @@ state={
 	history={
 		owner = SWE
 		victory_points = {
-			101 2 
-		}
-		victory_points = {
-			6165 3 
-		}
-		victory_points = {
 			46 1 
 		}
 		victory_points = {
@@ -24,33 +18,13 @@ state={
 			9151 2 
 		}
 		victory_points = {
-			3113 3 
-		}
-		victory_points = {
 			9088 1 
-		}
-		victory_points = {
-			9143 1 
-		}
-		victory_points = {
-			9108 1 
-		}
-		victory_points = {
-			9093 1 
-		}
-		victory_points = {
-			11155 1 
 		}
 		buildings = {
 			infrastructure = 6
 			arms_factory = 1
 			industrial_complex = 1
 			air_base = 3
-			130 = {
-				naval_base = 1
-
-			}
-
 		}
 		add_core_of = SWE
 
