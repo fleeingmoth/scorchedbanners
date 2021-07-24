@@ -6,9 +6,6 @@ state={
 	history={
 		owner = RAJ
 		victory_points = {
-			12395 1 
-		}
-		victory_points = {
 			10514 1 
 		}
 		buildings = {

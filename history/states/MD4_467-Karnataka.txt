@@ -46,9 +46,6 @@ state={
 			7411 1 
 		}
 		victory_points = {
-			10259 1 
-		}
-		victory_points = {
 			10799 1 
 		}
 		buildings = {

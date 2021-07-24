@@ -10,9 +10,6 @@ state={
 	history={
 		owner = BRM
 		victory_points = {
-			7974 5 
-		}
-		victory_points = {
 			1170 5 
 		}
 		victory_points = {

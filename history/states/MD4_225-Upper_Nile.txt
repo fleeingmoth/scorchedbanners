@@ -10,9 +10,6 @@ state={
 	history={
 		owner = SSU
 		victory_points = {
-			13259 1 
-		}
-		victory_points = {
 			12887 1 
 		}
 		buildings = {
