@@ -31,67 +31,67 @@
  GER_ultranationalism:0 "German Reich"
  GER_ultranationalism_DEF:0 "the German Reich"
  
- #WGR
- WGR_anarchy:0 "West Germany"
- WGR_anarchy_DEF:0 "the West German zone"
+ #FRG
+ FRG_anarchy:0 "West Germany"
+ FRG_anarchy_DEF:0 "the West German zone"
  
- WGR_marxism_leninism:0 "People's Republic of Germany"
- WGR_marxism_leninism_DEF:0 "the People's Republic of Germany"
+ FRG_marxism_leninism:0 "People's Republic of Germany"
+ FRG_marxism_leninism_DEF:0 "the People's Republic of Germany"
  
- WGR_revisionist_socialism:0 "German Socialist Republic"
- WGR_revisionist_socialism_DEF:0 "the German Socialist Republic"
+ FRG_revisionist_socialism:0 "German Socialist Republic"
+ FRG_revisionist_socialism_DEF:0 "the German Socialist Republic"
  
- WGR_libertarian_socialism:0 "German Socialist Republic"
- WGR_libertarian_socialism_DEF:0 "the German Socialist Republic"
+ FRG_libertarian_socialism:0 "German Socialist Republic"
+ FRG_libertarian_socialism_DEF:0 "the German Socialist Republic"
  
- WGR_social_democracy:0 "Federal Republic of Germany"
- WGR_social_democracy_DEF:0 "the Federal Republic of Germany"
+ FRG_social_democracy:0 "Federal Republic of Germany"
+ FRG_social_democracy_DEF:0 "the Federal Republic of Germany"
  
- WGR_liberal_democracy:0 "Federal Republic of Germany"
- WGR_liberal_democracy_DEF:0 "the Federal Republic of Germany"
+ FRG_liberal_democracy:0 "Federal Republic of Germany"
+ FRG_liberal_democracy_DEF:0 "the Federal Republic of Germany"
  
- WGR_conservative_democracy:0 "Federal Republic of Germany"
- WGR_conservative_democracy_desc:0 "the Federal Republic of Germany"
+ FRG_conservative_democracy:0 "Federal Republic of Germany"
+ FRG_conservative_democracy_desc:0 "the Federal Republic of Germany"
  
- WGR_classical_authoritarianism:0 "State of Germany"
- WGR_classical_authoritarianism_DEF:0 "the State of Germany"
+ FRG_classical_authoritarianism:0 "State of Germany"
+ FRG_classical_authoritarianism_DEF:0 "the State of Germany"
  
- WGR_despotism:0 "German State"
- WGR_despotism_DEF:0 "the German State"
+ FRG_despotism:0 "German State"
+ FRG_despotism_DEF:0 "the German State"
  
- WGR_ultranationalism:0 "German Republic"
- WGR_ultranationalism_DEF:0 "the German Republic"
+ FRG_ultranationalism:0 "German Republic"
+ FRG_ultranationalism_DEF:0 "the German Republic"
  
- #DDR
- DDR_anarchy:0 "East Germany"
- DDR_anarchy_DEF:0 "the East German zone"
+ #GDR
+ GDR_anarchy:0 "East Germany"
+ GDR_anarchy_DEF:0 "the East German zone"
  
- DDR_marxism_leninism:0 "German Democratic Republic"
- DDR_marxism_leninism_DEF:0 "the German Democratic Republic"
+ GDR_marxism_leninism:0 "German Democratic Republic"
+ GDR_marxism_leninism_DEF:0 "the German Democratic Republic"
  
- DDR_revisionist_socialism:0 "German Democratic Republic"
- DDR_revisionist_socialism_DEF:0 "the German Democratic Republic"
+ GDR_revisionist_socialism:0 "German Democratic Republic"
+ GDR_revisionist_socialism_DEF:0 "the German Democratic Republic"
  
- DDR_libertarian_socialism:0 "German Democratic Republic"
- DDR_libertarian_socialism_DEF:0 "the German Democratic Republic"
+ GDR_libertarian_socialism:0 "German Democratic Republic"
+ GDR_libertarian_socialism_DEF:0 "the German Democratic Republic"
  
- DDR_social_democracy:0 "Republic of East Germany"
- DDR_social_democracy_DEF:0 "the Republic of East Germany"
+ GDR_social_democracy:0 "Republic of East Germany"
+ GDR_social_democracy_DEF:0 "the Republic of East Germany"
  
- DDR_liberal_democracy:0 "Republic of East Germany"
- DDR_liberal_democracy_DEF:0 "the Republic of East Germany"
+ GDR_liberal_democracy:0 "Republic of East Germany"
+ GDR_liberal_democracy_DEF:0 "the Republic of East Germany"
  
- DDR_conservative_democracy:0 "Republic of East Germany"
- DDR_conservative_democracy_DEF:0 "the Republic of East Germany"
+ GDR_conservative_democracy:0 "Republic of East Germany"
+ GDR_conservative_democracy_DEF:0 "the Republic of East Germany"
  
- DDR_classical_authoritarianism:0 "German Republic"
- DDR_classical_authoritarianism_DEF:0 "the German Republic"
+ GDR_classical_authoritarianism:0 "German Republic"
+ GDR_classical_authoritarianism_DEF:0 "the German Republic"
  
- DDR_despotism:0 "German Democratic Republic"
- DDR_despotism_DEF:0 "the German Democratic Republic"
+ GDR_despotism:0 "German Democratic Republic"
+ GDR_despotism_DEF:0 "the German Democratic Republic"
  
- DDR_ultranationalism:0 "German Social Democratic State"
- DDR_ultranationalism_DEF:0 "the German Social Democratic State"
+ GDR_ultranationalism:0 "German Social Democratic State"
+ GDR_ultranationalism_DEF:0 "the German Social Democratic State"
  
  #POL
  
@@ -100,6 +100,8 @@
  #SWE
  
  #NOR
+
+ #NNR
  
  #FIN
  
@@ -121,14 +123,20 @@
  
  #SER
  
- #MAC
+ #FYR
  
  #BUL
+
+ #ALB
  
  #ALB
  
  #GRE
  
+ #CRE
+
+ #CYP
+
  #TUR
  
  #SWI
@@ -136,6 +144,8 @@
  #ITA
  
  #FRA
+
+ #COR
  
  #LUX
  
@@ -161,16 +171,80 @@
  
  #ARM
  
- #AZR
+ #AZE
  
  #SCO
  
  #IRE
  
- #WLS
+ #WAS
  
  #ENG
  
  #SPR
  
  #POR
+
+ #MLT
+
+ #KUR
+
+ #SYR
+
+ #LEB
+
+ #SAA
+
+ #HEZ
+
+ #ISR
+
+ #LEB
+
+ #JOR
+
+ #ISI #ISIS
+
+ #IRQ
+
+ #SAU
+
+ #KUW
+ 
+ #BHR
+
+ #QAT
+
+ #UAE
+
+ #OMA
+
+ #DLF
+
+ #YEM
+
+ #UAR
+
+ #EGY
+
+ #LBA
+
+ #TUN
+
+ #ALG
+
+ #TUA Tuareg
+
+ #MOR
+
+ #SHA Sahrawi
+
+ #MAU
+
+ #SEN
+
+ #GAM
+
+ #GUB
+ 
+ #VER Cape Verde
